@@ -6,9 +6,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl">
-        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106/0.1.0"/>
-    </owl:Ontology>
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl"/>
     
 
 
@@ -966,6 +964,15 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_0c72dcf4_3fea_4fc2_8c1a_338eb92cb6fa -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_0c72dcf4_3fea_4fc2_8c1a_338eb92cb6fa">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_56942f7e_aea0_45ff_8a02_7dee6344d2dd"/>
+        <rdfs:label xml:lang="en">target state</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_0d64a4e9_2d46_4133_84fd_c8766c1c51e0 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_0d64a4e9_2d46_4133_84fd_c8766c1c51e0">
@@ -1286,6 +1293,15 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_3cc8a845_70cf_4e7e_b20f_795d8dadc025 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_3cc8a845_70cf_4e7e_b20f_795d8dadc025">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_56942f7e_aea0_45ff_8a02_7dee6344d2dd"/>
+        <rdfs:label xml:lang="en">option state</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_3d625c6d_1a6e_41bb_8098_4df0473727c3 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_3d625c6d_1a6e_41bb_8098_4df0473727c3">
@@ -1327,6 +1343,15 @@
     <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_4182b184_5a23_4af1_9d12_ae1ae7fc0b85">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_68adefab_64c8_4904_a8e4_e07fda1185a1"/>
         <rdfs:label xml:lang="en">investment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_41a2cc2a_4333_47cd_b658_f5cc987495ee -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_41a2cc2a_4333_47cd_b658_f5cc987495ee">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_56942f7e_aea0_45ff_8a02_7dee6344d2dd"/>
+        <rdfs:label xml:lang="en">actual state</rdfs:label>
     </owl:Class>
     
 
@@ -1502,6 +1527,15 @@
     <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_564d28e4_6116_4726_8941_0a5838c28070">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_722448ca_ebc3_452a_89ee_625d24e2b8d2"/>
         <rdfs:label xml:lang="en">inventory location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_56942f7e_aea0_45ff_8a02_7dee6344d2dd -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_56942f7e_aea0_45ff_8a02_7dee6344d2dd">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_3f1e5502_91c5_42e2_916c_52e953d0e042"/>
+        <rdfs:label xml:lang="en">transformation state</rdfs:label>
     </owl:Class>
     
 
@@ -1690,7 +1724,7 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_7bbd0dce_b5d5_4362_9e64_ea517ad83057">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_3f1e5502_91c5_42e2_916c_52e953d0e042"/>
-        <rdfs:label xml:lang="en">transformation road map milestone objective</rdfs:label>
+        <rdfs:label xml:lang="en">transformation milestone objective</rdfs:label>
     </owl:Class>
     
 
@@ -1952,6 +1986,15 @@
     <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_9a54d624_12e5_4384_9e76_7845d8ecfbe8">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_91b77ec2_d773_4038_a223_1c1d833e9597"/>
         <rdfs:label xml:lang="en">strategy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_9a9dc2ca_ea24_4a4e_9301_16647b03178a -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_9a9dc2ca_ea24_4a4e_9301_16647b03178a">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_3cc8a845_70cf_4e7e_b20f_795d8dadc025"/>
+        <rdfs:label xml:lang="en">transition state option</rdfs:label>
     </owl:Class>
     
 
@@ -2362,6 +2405,15 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_c973805d_3651_4a27_832d_22f1d0a81ae5 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_c973805d_3651_4a27_832d_22f1d0a81ae5">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_3cc8a845_70cf_4e7e_b20f_795d8dadc025"/>
+        <rdfs:label xml:lang="en">end state option</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_c982a728_fb72_4b3c_af9b_ac8be73a7fc6 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_c982a728_fb72_4b3c_af9b_ac8be73a7fc6">
@@ -2484,6 +2536,15 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_d872eb07_df1e_4625_a593_791160ccc8b5 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_d872eb07_df1e_4625_a593_791160ccc8b5">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_3f1e5502_91c5_42e2_916c_52e953d0e042"/>
+        <rdfs:label xml:lang="en">transformation work unit</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_dafc2a0a_e2a0_45dc_a0ea_b498004adeef -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_dafc2a0a_e2a0_45dc_a0ea_b498004adeef">
@@ -2592,6 +2653,15 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_f03ae64d_a477_457c_879c_c05aecc12331 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_f03ae64d_a477_457c_879c_c05aecc12331">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_d872eb07_df1e_4625_a593_791160ccc8b5"/>
+        <rdfs:label xml:lang="en">transformation project</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_f04a58e3_3ad0_4245_b131_c9953665bcc9 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_f04a58e3_3ad0_4245_b131_c9953665bcc9">
@@ -2628,11 +2698,29 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_f50a174d_d573_41da_b5ba_af2c45358c3e -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_f50a174d_d573_41da_b5ba_af2c45358c3e">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_0c72dcf4_3fea_4fc2_8c1a_338eb92cb6fa"/>
+        <rdfs:label xml:lang="en">end state</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_f7ca8b74_b8f1_4887_b4a4_896b22b6884d -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_f7ca8b74_b8f1_4887_b4a4_896b22b6884d">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_dc8bb6e7_8c97_49b4_8de2_13defe047903"/>
         <rdfs:label xml:lang="en">transaction role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_f837e638_e669_4427_ae1e_86eb01654b52 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_f837e638_e669_4427_ae1e_86eb01654b52">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_0c72dcf4_3fea_4fc2_8c1a_338eb92cb6fa"/>
+        <rdfs:label xml:lang="en">transition state</rdfs:label>
     </owl:Class>
     
 
