@@ -2692,26 +2692,6 @@
         <rdfs:label xml:lang="en">capability</rdfs:label>
         <rdfs:label xml:lang="zh">能力</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLNamedIndividual_1e637d07_1de7_45bf_9a7b_f99fd274fe8d -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLNamedIndividual_1e637d07_1de7_45bf_9a7b_f99fd274fe8d">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_fab8355f_2a50_4e40_8014_d04cd31b5ad0"/>
-        <rdfs:label xml:lang="en">nick.nguyen</rdfs:label>
-    </owl:NamedIndividual>
 </rdf:RDF>
 
 
