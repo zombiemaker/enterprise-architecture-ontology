@@ -1666,6 +1666,15 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_6c7f7fb3_de3f_419a_97c1_6450047cbf4e -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_6c7f7fb3_de3f_419a_97c1_6450047cbf4e">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_ff349e9f_6b56_43ba_9023_8df8976d15e3"/>
+        <rdfs:label xml:lang="en">transformation capability demand</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_6da32302_84b7_491a_9c43_e2c02cb15f6f -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_6da32302_84b7_491a_9c43_e2c02cb15f6f">
@@ -1725,6 +1734,15 @@
     <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_7bbd0dce_b5d5_4362_9e64_ea517ad83057">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_3f1e5502_91c5_42e2_916c_52e953d0e042"/>
         <rdfs:label xml:lang="en">transformation milestone objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_7c696a3c_651a_4e46_9be8_ad96b3a8c801 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_7c696a3c_651a_4e46_9be8_ad96b3a8c801">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_ff349e9f_6b56_43ba_9023_8df8976d15e3"/>
+        <rdfs:label xml:lang="en">transformation labor demand</rdfs:label>
     </owl:Class>
     
 
@@ -2779,6 +2797,15 @@
         <rdfs:label xml:lang="de">Fähigkeit</rdfs:label>
         <rdfs:label xml:lang="en">capability</rdfs:label>
         <rdfs:label xml:lang="zh">能力</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_ff349e9f_6b56_43ba_9023_8df8976d15e3 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_ff349e9f_6b56_43ba_9023_8df8976d15e3">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl#OWLClass_3f1e5502_91c5_42e2_916c_52e953d0e042"/>
+        <rdfs:label xml:lang="en">transformation resource demand</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

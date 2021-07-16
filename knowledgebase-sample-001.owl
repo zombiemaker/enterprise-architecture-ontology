@@ -8,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/knowledgebase-sample-001.owl">
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106/0.1.0"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/202106.owl"/>
     </owl:Ontology>
     
 
