@@ -1,3 +1,3 @@
-# Ontologies
+# Overview
 
-A repo with my ontologies
+An W3C OWL ontology for enterprise architecture
