@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="https://zombiemaker.github.io/enterprise-architecture-ontology"
+     xml:base="https://zombiemaker.github.io/enterprise-architecture-ontology/main/enterprise-architecture.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="https://zombiemaker.github.io/enterprise-architecture-ontology"
-     versionIRI="https://zombiemaker.github.io/ontologies/2021/6/enterprise-architecture-ontology/0.1.0">
+     ontologyIRI="https://zombiemaker.github.io/enterprise-architecture-ontology/main/enterprise-architecture.owl"
+     versionIRI="https://zombiemaker.github.io/enterprise-architecture-ontology/main/enterprise-architecture.owl">
     <Prefix name="" IRI="https://zombiemaker.github.io/ontologies/2021/6/enterprise-architecture-ontology#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
