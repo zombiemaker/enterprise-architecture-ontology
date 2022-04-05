@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Overview
-description: An overview of enterprise architecture ontology
+description: an overview of enterprise architecture ontology
 ---
 
 ## Goals
