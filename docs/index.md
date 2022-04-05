@@ -1,6 +1,5 @@
 layout: page
-title: "Human Being Ontology"
-permalink: /about/
+title: "Enterprise Architecture Ontology"
 
 # Overview
 
