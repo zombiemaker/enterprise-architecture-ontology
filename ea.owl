@@ -685,6 +685,12 @@
                                                rdfs:label "microsoft access database schema"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_05babf4a_33b2_4ece_90bc_2018d02dd92c
+:OWLClass_05babf4a_33b2_4ece_90bc_2018d02dd92c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
+                                               rdfs:label "enterprise business system architecture element"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_08090afb_384e_4eda_a4ff_a28ff82d64fe
 :OWLClass_08090afb_384e_4eda_a4ff_a28ff82d64fe rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_b89b982f_e80e_443c_b600_9ac1afbbe54e ;
@@ -851,6 +857,12 @@
 :OWLClass_1934f3e0_6ff7_4e60_a7dc_28e23f2cae43 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_4e92e676_56ab_4acc_bfbb_dfc1f42b7006 ;
                                                rdfs:label "financial resource market segment"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_19c5d405_efa8_4ddc_82a3_6e77ded273cb
+:OWLClass_19c5d405_efa8_4ddc_82a3_6e77ded273cb rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
+                                               rdfs:label "enterprise information architecture element"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_1af338d0_7dfe_4716_82cf_e4ce81cb697a
@@ -1062,6 +1074,12 @@
                                                rdfs:label "payment"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_345066c6_a2e9_4dee_bec0_e0f57ac09ec4
+:OWLClass_345066c6_a2e9_4dee_bec0_e0f57ac09ec4 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_05babf4a_33b2_4ece_90bc_2018d02dd92c ;
+                                               rdfs:label "enterprise business operating system architecture element"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_346d7049_2adb_400b_b80d_6c860819ba99
 :OWLClass_346d7049_2adb_400b_b80d_6c860819ba99 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_ebb1cd61_d16d_4d46_a263_07cda6b56bab ;
@@ -1120,6 +1138,12 @@
 :OWLClass_3a96e8e3_be03_4296_a660_63ba0fc302fa rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
                                                rdfs:label "service"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_3bf95372_f30b_441f_8ec9_bbf0228bc9ad
+:OWLClass_3bf95372_f30b_441f_8ec9_bbf0228bc9ad rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
+                                               rdfs:label "ea aspect"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_3c41c119_90f4_4f55_8442_f0e6e7c72d8e
@@ -1564,6 +1588,12 @@
                                                rdfs:label "investment role"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_69cd7e27_747c_44bc_bd8f_6f078a4efba9
+:OWLClass_69cd7e27_747c_44bc_bd8f_6f078a4efba9 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
+                                               rdfs:label "enterprise information technology system architecture element"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_69efe035_6d2b_4e94_bb7f_ae095fb339dd
 :OWLClass_69efe035_6d2b_4e94_bb7f_ae095fb339dd rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_f000dc7a_ea51_4e9d_b4af_c101937d8ce8 ;
@@ -1646,6 +1676,12 @@
 :OWLClass_751e14fa_3b66_498b_8fd1_3f1962cb2b5a rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_91b2b245_85e9_4804_aae7_e812f10b3def ;
                                                rdfs:label "data schema"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_75c5ecfe_b582_4547_908d_68746c5e703b
+:OWLClass_75c5ecfe_b582_4547_908d_68746c5e703b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_3bf95372_f30b_441f_8ec9_bbf0228bc9ad ;
+                                               rdfs:label "enterprise information architecture aspect"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_76981f05_06b8_4158_a6d2_e0da4f69f780
@@ -1995,6 +2031,12 @@
                                                rdfs:label "message publisher agent"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_9ac8d7ef_9699_4cb8_a071_8e1c5e965021
+:OWLClass_9ac8d7ef_9699_4cb8_a071_8e1c5e965021 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e0a9210c_f08d_4000_9e75_5ac224956cb8 ;
+                                               rdfs:label "enterprise business investment system architecture aspect"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_9b006796_d530_4331_81d1_5c4e887458a2
 :OWLClass_9b006796_d530_4331_81d1_5c4e887458a2 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_24ffba65_41a8_4ec9_87ff_db747207641b ;
@@ -2048,6 +2090,18 @@
 :OWLClass_a1cb049a_40f8_4eca_88f4_6c86201f507d rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_8b9b1657_752c_40c0_a28e_1b4e57c46f85 ;
                                                rdfs:label "artist"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_a2759f66_ec76_4d43_a3c8_4195dc96c732
+:OWLClass_a2759f66_ec76_4d43_a3c8_4195dc96c732 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_3bf95372_f30b_441f_8ec9_bbf0228bc9ad ;
+                                               rdfs:label "enterprise data architecture aspect"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_a295e1b2_f87b_4799_a255_7272fd784ec3
+:OWLClass_a295e1b2_f87b_4799_a255_7272fd784ec3 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e0a9210c_f08d_4000_9e75_5ac224956cb8 ;
+                                               rdfs:label "enterprise governance system architecture aspect"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_a3a70971_14a9_4a80_afa5_f4cb9b174c05
@@ -2138,6 +2192,12 @@
 :OWLClass_ab2c4a7c_fc59_4d3d_b850_bf16f982272a rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_4be2dc6e_3930_4a8f_95f0_8b80b5e9bf63 ;
                                                rdfs:label "transaction closer agent"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_acf4eb0a_38d4_4aef_9502_508d8fa3d19e
+:OWLClass_acf4eb0a_38d4_4aef_9502_508d8fa3d19e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e0a9210c_f08d_4000_9e75_5ac224956cb8 ;
+                                               rdfs:label "enterprise business operating system architecture aspect"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_acfb1800_43df_4d95_9813_769cdaaf6a30
@@ -2458,7 +2518,7 @@
 :OWLClass_cda69499_98d7_4813_a85c_1775f0064e91 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
                                                rdfs:label "Aktivität"@de ,
-                                                          "activity"@en ,
+                                                          "business operating activity"@en ,
                                                           "活动"@zh .
 
 
@@ -2523,6 +2583,12 @@
                                                rdfs:label "data repository"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_df2d5305_0180_44fc_a878_6a8b483d9a6c
+:OWLClass_df2d5305_0180_44fc_a878_6a8b483d9a6c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_05babf4a_33b2_4ece_90bc_2018d02dd92c ;
+                                               rdfs:label "enterprise governance system architecture element"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_df72ba1d_66f0_4277_a59d_80613f3eeb87
 :OWLClass_df72ba1d_66f0_4277_a59d_80613f3eeb87 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_7c552096_fb7b_4f65_9cb2_80421fd079c9 ;
@@ -2551,6 +2617,12 @@
 :OWLClass_e078f82b_116f_4a6e_ad99_81905496c574 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_f000dc7a_ea51_4e9d_b4af_c101937d8ce8 ;
                                                rdfs:label "computer program"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_e0a9210c_f08d_4000_9e75_5ac224956cb8
+:OWLClass_e0a9210c_f08d_4000_9e75_5ac224956cb8 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_3bf95372_f30b_441f_8ec9_bbf0228bc9ad ;
+                                               rdfs:label "enterprise business system architecture aspect"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_e0e03542_c7f6_41b7_bb7e_56a9bee4aedc
@@ -2679,6 +2751,12 @@
                                                rdfs:label "computer software"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_f01ec4ce_6bf1_4f4f_822e_e99e9ccaf19b
+:OWLClass_f01ec4ce_6bf1_4f4f_822e_e99e9ccaf19b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_05babf4a_33b2_4ece_90bc_2018d02dd92c ;
+                                               rdfs:label "enterprise business investment system architecture element"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_f04a58e3_3ad0_4245_b131_c9953665bcc9
 :OWLClass_f04a58e3_3ad0_4245_b131_c9953665bcc9 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_4be2dc6e_3930_4a8f_95f0_8b80b5e9bf63 ;
@@ -2744,6 +2822,12 @@
 :OWLClass_fd72cdd7_d011_4afa_8110_c561751af764 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_f7ca8b74_b8f1_4887_b4a4_896b22b6884d ;
                                                rdfs:label "payment transaction role"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_fd970d0f_ba42_4b1e_8a3a_b4b9f097ea60
+:OWLClass_fd970d0f_ba42_4b1e_8a3a_b4b9f097ea60 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_3bf95372_f30b_441f_8ec9_bbf0228bc9ad ;
+                                               rdfs:label "enterprise information technology system architecture aspect"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_fde662b9_dfdc_416f_9127_2fb09a9daa76
