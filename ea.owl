@@ -6,7 +6,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl> .
 
-<https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl> rdf:type owl:Ontology .
+<https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl> rdf:type owl:Ontology ;
+                                                                                              owl:imports <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owl> ,
+                                                                                                          <https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl> ;
+                                                                                              rdfs:label "enterprise architecture" .
 
 #################################################################
 #    Object Properties
@@ -1166,6 +1169,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_3f1e5502_91c5_42e2_916c_52e953d0e042
 :OWLClass_3f1e5502_91c5_42e2_916c_52e953d0e042 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "ea transformation element"@en .
 
 
@@ -2244,6 +2248,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0
 :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "ea description element"@en .
 
 
@@ -2807,6 +2812,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_f9492db8_bfee_475f_898e_125a08eb56cc
 :OWLClass_f9492db8_bfee_475f_898e_125a08eb56cc rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "technology"@en .
 
 
