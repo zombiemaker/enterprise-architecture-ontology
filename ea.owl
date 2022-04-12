@@ -688,9 +688,15 @@
                                                rdfs:label "microsoft access database schema"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_055459a8_85da_4602_8717_cc9522a7fe17
+:OWLClass_055459a8_85da_4602_8717_cc9522a7fe17 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_55190a4b_558e_4b42_ba72_4e9a84962e41 ;
+                                               rdfs:label "business financing system capability"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_05babf4a_33b2_4ece_90bc_2018d02dd92c
 :OWLClass_05babf4a_33b2_4ece_90bc_2018d02dd92c rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
+                                               rdfs:subClassOf :OWLClass_513cbf27_a0d4_4061_9fc6_2380977c11c1 ;
                                                rdfs:label "enterprise business system architecture element"@en .
 
 
@@ -703,7 +709,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_0a096b91_7735_43da_94d5_3cdab86a6c09
 :OWLClass_0a096b91_7735_43da_94d5_3cdab86a6c09 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_41d4d83a_6362_4ff2_b2c1_1354337ee94c ;
-                                               rdfs:label "designer"@en .
+                                               rdfs:label "business process designer"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_0a11ca8d_12b5_426d_8de0_3cfb9b736c1e
@@ -733,7 +739,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_0c2f8cfd_ed6d_4e5b_bad2_9cae929daf62
 :OWLClass_0c2f8cfd_ed6d_4e5b_bad2_9cae929daf62 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_5c7506d3_3e62_4095_8c38_8ef433dd5bcc ;
-                                               rdfs:label "steward"@en .
+                                               rdfs:label "business system capability steward"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_0c4c9ba0_0689_4b78_849e_ac7df34d5089
@@ -804,7 +810,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_1194fcdc_81a5_44dc_b523_bc1b98b0d90b
 :OWLClass_1194fcdc_81a5_44dc_b523_bc1b98b0d90b rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_3f1e5502_91c5_42e2_916c_52e953d0e042 ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_332c872e_9f5d_43c1_b2b9_19dbaba6fc1b> ;
                                                rdfs:label "transformation resource allocation"@en .
 
 
@@ -812,6 +818,12 @@
 :OWLClass_1201541c_3aca_44c5_aec6_4023b044b713 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_b3a09edd_3bcf_4afc_acf7_eebd67404440 ;
                                                rdfs:label "computer network capability"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_128c471d_5041_4c3d_9f05_257dade999ec
+:OWLClass_128c471d_5041_4c3d_9f05_257dade999ec rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_69cd7e27_747c_44bc_bd8f_6f078a4efba9 ;
+                                               rdfs:label "enterprise computer network architecture element"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_14756d91_46be_4f9d_8cd0_331a0f595ce0
@@ -864,8 +876,14 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_19c5d405_efa8_4ddc_82a3_6e77ded273cb
 :OWLClass_19c5d405_efa8_4ddc_82a3_6e77ded273cb rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
+                                               rdfs:subClassOf :OWLClass_513cbf27_a0d4_4061_9fc6_2380977c11c1 ;
                                                rdfs:label "enterprise information architecture element"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_1ad1f97b_7b2e_4821_92b9_9381050c478a
+:OWLClass_1ad1f97b_7b2e_4821_92b9_9381050c478a rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_e76181d6_7ce1_4e1d_b9a2_0d605970e98a> ;
+                                               rdfs:label "legal entity"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_1af338d0_7dfe_4716_82cf_e4ce81cb697a
@@ -883,7 +901,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_1d904bf5_a13a_4a7b_b15a_da45a0d544c8
 :OWLClass_1d904bf5_a13a_4a7b_b15a_da45a0d544c8 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_3f1e5502_91c5_42e2_916c_52e953d0e042 ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "transformation roadmap"@en .
 
 
@@ -909,6 +927,12 @@
 :OWLClass_1f2eb0fa_0f14_4531_acf6_c3fcdeaf51e2 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_a0b2c162_fd88_47db_988a_9d3b86b82834 ;
                                                rdfs:label "postgresql database schema"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_1f732de3_1ab9_4ba4_a303_e97ecb0d320f
+:OWLClass_1f732de3_1ab9_4ba4_a303_e97ecb0d320f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_fe833468_a098_49ae_95f3_7766097eeec3 ;
+                                               rdfs:label "business financing activity"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_2087fa56_aae5_44ce_a79e_6a21633f389d
@@ -950,14 +974,14 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_2451808b_2dc7_402f_be6c_95fe577018e0
 :OWLClass_2451808b_2dc7_402f_be6c_95fe577018e0 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_3f1e5502_91c5_42e2_916c_52e953d0e042 ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "transformation roadmap milestone"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_24a2781b_987d_4994_bff1_b9d9c945e0fc
 :OWLClass_24a2781b_987d_4994_bff1_b9d9c945e0fc rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
-                                               rdfs:label "capability implementation"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_f7d7a81c_9644_43dc_845f_e22e0b0e4563> ;
+                                               rdfs:label "business capability implementation"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_24ffba65_41a8_4ec9_87ff_db747207641b
@@ -1067,7 +1091,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_3344fbbd_6b17_4dfb_8214_fd95f0c23896
 :OWLClass_3344fbbd_6b17_4dfb_8214_fd95f0c23896 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_3f1e5502_91c5_42e2_916c_52e953d0e042 ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_332c872e_9f5d_43c1_b2b9_19dbaba6fc1b> ;
                                                rdfs:label "transformation resource category"@en .
 
 
@@ -1080,7 +1104,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_345066c6_a2e9_4dee_bec0_e0f57ac09ec4
 :OWLClass_345066c6_a2e9_4dee_bec0_e0f57ac09ec4 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_05babf4a_33b2_4ece_90bc_2018d02dd92c ;
-                                               rdfs:label "enterprise business operating system architecture element"@en .
+                                               rdfs:label "enterprise operating system architecture element"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_346d7049_2adb_400b_b80d_6c860819ba99
@@ -1145,8 +1169,20 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_3bf95372_f30b_441f_8ec9_bbf0228bc9ad
 :OWLClass_3bf95372_f30b_441f_8ec9_bbf0228bc9ad rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
-                                               rdfs:label "ea aspect"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "enterprise architecture aspect"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_3c077ce1_7c66_44cf_a570_75d8383d878d
+:OWLClass_3c077ce1_7c66_44cf_a570_75d8383d878d rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_086c56c4_d797_49a0_aa88_ce1d03a00fc5> ;
+                                               rdfs:label "enterprise architecture view"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_3c27dd4b_1635_4c7b_bda2_9386f201059c
+:OWLClass_3c27dd4b_1635_4c7b_bda2_9386f201059c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_3d5156ea_5e5f_4c24_be24_cdb4c2d9a2fe ;
+                                               rdfs:label "value stream steward"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_3c41c119_90f4_4f55_8442_f0e6e7c72d8e
@@ -1170,7 +1206,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_3f1e5502_91c5_42e2_916c_52e953d0e042
 :OWLClass_3f1e5502_91c5_42e2_916c_52e953d0e042 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
-                                               rdfs:label "enterprise architecture transformation element"@en .
+                                               rdfs:label "enterprise architecture transformation"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_3fafbe23_36ad_4912_82bf_380cc7605e11
@@ -1200,8 +1236,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_41d4d83a_6362_4ff2_b2c1_1354337ee94c
 :OWLClass_41d4d83a_6362_4ff2_b2c1_1354337ee94c rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_dc8bb6e7_8c97_49b4_8de2_13defe047903 ;
-                                               rdfs:label "process role"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_828264ef_fb31_46f5_a057_847b8d155782> ;
+                                               rdfs:label "business process role"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_41f4a87e_575c_49f2_b9c1_c7930e354fbc
@@ -1262,6 +1298,12 @@
 :OWLClass_478ccc8f_d4e0_401f_aeca_0fff4b5d4dff rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_4a4783c9_3c31_48f9_bc69_95feb643dab8 ;
                                                rdfs:label "company"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_487c6961_19d8_46d7_b0c5_e82ccd1de1ae
+:OWLClass_487c6961_19d8_46d7_b0c5_e82ccd1de1ae rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_0e19d18c_a030_4f25_b9d3_7768019a64fc> ;
+                                               rdfs:label "business process"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_493f3d9c_1555_446f_bbf6_296e9f8abf26
@@ -1362,6 +1404,12 @@
                                                rdfs:label "transportation vehicle"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_513cbf27_a0d4_4061_9fc6_2380977c11c1
+:OWLClass_513cbf27_a0d4_4061_9fc6_2380977c11c1 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_332c872e_9f5d_43c1_b2b9_19dbaba6fc1b> ;
+                                               rdfs:label "enterprise architecture element"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_522650c0_20e1_4b41_bb86_10dc77951d95
 :OWLClass_522650c0_20e1_4b41_bb86_10dc77951d95 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_feb615e5_73a6_4a50_8c24_a10214d87ad1 ;
@@ -1383,8 +1431,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_55190a4b_558e_4b42_ba72_4e9a84962e41
 :OWLClass_55190a4b_558e_4b42_ba72_4e9a84962e41 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_fe833468_a098_49ae_95f3_7766097eeec3 ;
-                                               rdfs:label "person capability"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d67f8322_20a2_4fae_a5f3_f9c635e4eba2> ;
+                                               rdfs:label "business capability"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_5536afd2_e870_4cde_b92d_395fdc55371f
@@ -1422,6 +1470,12 @@
 :OWLClass_572cf0d6_0adf_4ed6_8cf0_d2633ca599f9 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_7c552096_fb7b_4f65_9cb2_80421fd079c9 ;
                                                rdfs:label "data consumer"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_57d62361_4e96_458f_9543_83b0e4df0f9b
+:OWLClass_57d62361_4e96_458f_9543_83b0e4df0f9b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_83adf2d3_3320_4c87_b20f_841a35411fb3 ;
+                                               rdfs:label "business system capability implementation operations manager"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_57f6acbc_204c_4a3c_9748_b68e3fd68f31
@@ -1462,8 +1516,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_592030d9_24d1_485a_9fa2_8e7f517043e4
 :OWLClass_592030d9_24d1_485a_9fa2_8e7f517043e4 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_fe833468_a098_49ae_95f3_7766097eeec3 ;
-                                               rdfs:label "organizational capability"@en .
+                                               rdfs:subClassOf :OWLClass_55190a4b_558e_4b42_ba72_4e9a84962e41 ;
+                                               rdfs:label "business system capability"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_59cae891_34df_40c9_8ffe_ac24a384f9ff
@@ -1486,8 +1540,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_5c7506d3_3e62_4095_8c38_8ef433dd5bcc
 :OWLClass_5c7506d3_3e62_4095_8c38_8ef433dd5bcc rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_dc8bb6e7_8c97_49b4_8de2_13defe047903 ;
-                                               rdfs:label "capability role"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_728810d4_1107_4bb0_a056_9db36b17f3f6> ;
+                                               rdfs:label "business system capability role"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_5ca51c50_4eba_4d3b_a3ed_3c1189df759b
@@ -1522,13 +1576,13 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_602b4d45_b718_4fc0_9b01_84c94fc3dcf7
 :OWLClass_602b4d45_b718_4fc0_9b01_84c94fc3dcf7 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_3f1e5502_91c5_42e2_916c_52e953d0e042 ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "transformation work unit"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_61aceff6_f7a4_49b9_967b_65f5605d5ee9
 :OWLClass_61aceff6_f7a4_49b9_967b_65f5605d5ee9 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "business model"@en .
 
 
@@ -1562,22 +1616,10 @@
                                                rdfs:label "json schema"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_645a8b00_9362_4e65_ae86_4ff84b52e03b
-:OWLClass_645a8b00_9362_4e65_ae86_4ff84b52e03b rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
-                                               rdfs:label "type"@en .
-
-
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_6525369d_b1f1_4bd1_90a3_82232a03561c
 :OWLClass_6525369d_b1f1_4bd1_90a3_82232a03561c rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_de754d15_3ade_4b90_a264_7ee5b745c3c0 ;
                                                rdfs:label "modeled-data database"@en .
-
-
-###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_674e9101_9bf6_4432_97d1_2632b906b42b
-:OWLClass_674e9101_9bf6_4432_97d1_2632b906b42b rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
-                                               rdfs:label "categorization scheme"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_68a663b9_4d9a_4a13_ac18_971cce9bfecb
@@ -1594,8 +1636,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_69cd7e27_747c_44bc_bd8f_6f078a4efba9
 :OWLClass_69cd7e27_747c_44bc_bd8f_6f078a4efba9 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
-                                               rdfs:label "enterprise information technology system architecture element"@en .
+                                               rdfs:subClassOf :OWLClass_513cbf27_a0d4_4061_9fc6_2380977c11c1 ;
+                                               rdfs:label "enterprise information technology architecture element"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_69efe035_6d2b_4e94_bb7f_ae095fb339dd
@@ -1620,6 +1662,12 @@
 :OWLClass_6c68ea4c_1ae2_49ed_b3aa_5a2248898d3f rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_9a54d624_12e5_4384_9e76_7845d8ecfbe8 ;
                                                rdfs:label "investment strategy"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_6ccf178e_eb86_4a87_a6e4_0a323edc8f6b
+:OWLClass_6ccf178e_eb86_4a87_a6e4_0a323edc8f6b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_fe833468_a098_49ae_95f3_7766097eeec3 ;
+                                               rdfs:label "business investing activity"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_6da32302_84b7_491a_9c43_e2c02cb15f6f
@@ -1684,8 +1732,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_75c5ecfe_b582_4547_908d_68746c5e703b
 :OWLClass_75c5ecfe_b582_4547_908d_68746c5e703b rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_3bf95372_f30b_441f_8ec9_bbf0228bc9ad ;
-                                               rdfs:label "enterprise information architecture aspect"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "enterprise information architecture"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_76981f05_06b8_4158_a6d2_e0da4f69f780
@@ -1720,7 +1768,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_7bbd0dce_b5d5_4362_9e64_ea517ad83057
 :OWLClass_7bbd0dce_b5d5_4362_9e64_ea517ad83057 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_3f1e5502_91c5_42e2_916c_52e953d0e042 ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "transformation roadmap milestone objective"@en .
 
 
@@ -1751,6 +1799,12 @@
                                                                              )
                                                                ] ;
                                                rdfs:label "inter-application system integration role"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_7cba2b30_ef48_4ca9_8c4c_d2be6d6d85dc
+:OWLClass_7cba2b30_ef48_4ca9_8c4c_d2be6d6d85dc rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_55190a4b_558e_4b42_ba72_4e9a84962e41 ;
+                                               rdfs:label "business operating system capability"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_7cd70983_ce6f_4b96_b8a0_4cf82ab352ea
@@ -1821,8 +1875,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_83adf2d3_3320_4c87_b20f_841a35411fb3
 :OWLClass_83adf2d3_3320_4c87_b20f_841a35411fb3 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_dc8bb6e7_8c97_49b4_8de2_13defe047903 ;
-                                               rdfs:label "capability implementation role"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0> ;
+                                               rdfs:label "business system capability implementation role"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_841f95e9_81d4_406b_8f94_1ca1cdd5b2d3
@@ -1843,12 +1897,6 @@
                                                rdfs:label "song writer"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_871f750b_3221_46e3_a007_b8698fd6c6e4
-:OWLClass_871f750b_3221_46e3_a007_b8698fd6c6e4 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
-                                               rdfs:label "category"@en .
-
-
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_874db9f3_72bc_48fb_914c_73cd1831f80e
 :OWLClass_874db9f3_72bc_48fb_914c_73cd1831f80e rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_7fc315fd_93f6_45be_9fa7_353ee2f28921 ;
@@ -1861,6 +1909,12 @@
                                                rdfs:label "vendor"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_89b94430_d5ea_4409_921a_ef1badfc71cb
+:OWLClass_89b94430_d5ea_4409_921a_ef1badfc71cb rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_55190a4b_558e_4b42_ba72_4e9a84962e41 ;
+                                               rdfs:label "business investing system capability"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_8a8eb291_8b36_4290_974e_5aad561e378b
 :OWLClass_8a8eb291_8b36_4290_974e_5aad561e378b rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_b89b982f_e80e_443c_b600_9ac1afbbe54e ;
@@ -1871,6 +1925,12 @@
 :OWLClass_8b9b1657_752c_40c0_a28e_1b4e57c46f85 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_feb615e5_73a6_4a50_8c24_a10214d87ad1 ;
                                                rdfs:label "product producer"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_8c0fa267_49a6_4fab_90cf_c5c221c1242e
+:OWLClass_8c0fa267_49a6_4fab_90cf_c5c221c1242e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_69cd7e27_747c_44bc_bd8f_6f078a4efba9 ;
+                                               rdfs:label "enterprise computing architecture element"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_8c231351_9303_4d75_ba73_c4a1dd46f996
@@ -1927,12 +1987,6 @@
                                                rdfs:label "plan"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_92b7e67c_9119_4852_b623_b4e6b5950ac8
-:OWLClass_92b7e67c_9119_4852_b623_b4e6b5950ac8 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_41d4d83a_6362_4ff2_b2c1_1354337ee94c ;
-                                               rdfs:label "operator"@en .
-
-
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_92ddf532_ba94_450e_ba66_0ea7ab686d5d
 :OWLClass_92ddf532_ba94_450e_ba66_0ea7ab686d5d rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_4222d94b_8254_4f55_a78d_66eaef021212 ;
@@ -1941,14 +1995,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_92f6ff6e_965f_4331_a941_f926a703045f
 :OWLClass_92f6ff6e_965f_4331_a941_f926a703045f rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_9c5eac58_b0db_4459_baeb_b1668dcdcb3b ;
+                                               rdfs:subClassOf :OWLClass_487c6961_19d8_46d7_b0c5_e82ccd1de1ae ;
                                                rdfs:label "value stream"@en .
-
-
-###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_931cc731_87d5_4fec_843a_c411390816a7
-:OWLClass_931cc731_87d5_4fec_843a_c411390816a7 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
-                                               rdfs:label "classification scheme"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_93560600_2e25_4e7d_a4dd_fdac54c3ea5b
@@ -1959,8 +2007,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_9367c7a2_ce27_4e3c_8533_da1e6cf55d47
 :OWLClass_9367c7a2_ce27_4e3c_8533_da1e6cf55d47 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
-                                               rdfs:label "ea segment"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_181e658c_c1f5_4580_8f68_c20589eb69ad> ;
+                                               rdfs:label "enterprise architecture segment"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_941d4812_eed0_4fa5_9180_51e1475d4ad3
@@ -2043,8 +2091,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_9ac8d7ef_9699_4cb8_a071_8e1c5e965021
 :OWLClass_9ac8d7ef_9699_4cb8_a071_8e1c5e965021 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_e0a9210c_f08d_4000_9e75_5ac224956cb8 ;
-                                               rdfs:label "enterprise business investment system architecture aspect"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "enterprise business investing system architecture"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_9b006796_d530_4331_81d1_5c4e887458a2
@@ -2065,12 +2113,6 @@
                                                rdfs:label "closet"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_9c5eac58_b0db_4459_baeb_b1668dcdcb3b
-:OWLClass_9c5eac58_b0db_4459_baeb_b1668dcdcb3b rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
-                                               rdfs:label "process"@en .
-
-
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_9c9379c1_1a8f_4c40_a9f1_23a6c8b0ca21
 :OWLClass_9c9379c1_1a8f_4c40_a9f1_23a6c8b0ca21 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_4be2dc6e_3930_4a8f_95f0_8b80b5e9bf63 ;
@@ -2079,7 +2121,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_9dacda7c_1c0e_4a70_9063_2487f5d88b48
 :OWLClass_9dacda7c_1c0e_4a70_9063_2487f5d88b48 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "business transaction"@en .
 
 
@@ -2104,13 +2146,13 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_a2759f66_ec76_4d43_a3c8_4195dc96c732
 :OWLClass_a2759f66_ec76_4d43_a3c8_4195dc96c732 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_3bf95372_f30b_441f_8ec9_bbf0228bc9ad ;
-                                               rdfs:label "enterprise data architecture aspect"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "enterprise data architecture"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_a295e1b2_f87b_4799_a255_7272fd784ec3
 :OWLClass_a295e1b2_f87b_4799_a255_7272fd784ec3 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_e0a9210c_f08d_4000_9e75_5ac224956cb8 ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "enterprise governance system architecture aspect"@en .
 
 
@@ -2134,7 +2176,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_a4928ee6_745a_4866_92b5_ddb5f15faa53
 :OWLClass_a4928ee6_745a_4866_92b5_ddb5f15faa53 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_3f1e5502_91c5_42e2_916c_52e953d0e042 ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
                                                rdfs:label "transformation state"@en .
 
 
@@ -2146,8 +2188,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_a578c79f_22ed_4c34_8909_ccb66f9b6e03
 :OWLClass_a578c79f_22ed_4c34_8909_ccb66f9b6e03 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
-                                               rdfs:label "resource"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "business system resource"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_a58cb814_8d17_4155_b154_b94e476e4e39
@@ -2189,7 +2231,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_a8f422b4_804e_40c7_abb0_165d107fa84c
 :OWLClass_a8f422b4_804e_40c7_abb0_165d107fa84c rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_41d4d83a_6362_4ff2_b2c1_1354337ee94c ;
-                                               rdfs:label "manager"@en .
+                                               rdfs:label "business process manager"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_a90c7b08_7760_484a_9b91_3e4ecb8ff397
@@ -2206,8 +2248,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_acf4eb0a_38d4_4aef_9502_508d8fa3d19e
 :OWLClass_acf4eb0a_38d4_4aef_9502_508d8fa3d19e rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_e0a9210c_f08d_4000_9e75_5ac224956cb8 ;
-                                               rdfs:label "enterprise business operating system architecture aspect"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "enterprise business operating system architecture"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_acfb1800_43df_4d95_9813_769cdaaf6a30
@@ -2220,12 +2262,6 @@
 :OWLClass_ad85fef6_8be8_49de_a45c_5db2e4b35041 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_f9492db8_bfee_475f_898e_125a08eb56cc ;
                                                rdfs:label "technology standard"@en .
-
-
-###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_ad92d307_4a97_481a_816d_9e6d2642be1f
-:OWLClass_ad92d307_4a97_481a_816d_9e6d2642be1f rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
-                                               rdfs:label "class"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_ad99d86e_9735_4a35_bab3_96251614c5d1
@@ -2246,6 +2282,12 @@
                                                rdfs:label "energy resource market segment"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_aef82ea3_fc50_48bc_be3f_9dcadf5ce434
+:OWLClass_aef82ea3_fc50_48bc_be3f_9dcadf5ce434 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_69cd7e27_747c_44bc_bd8f_6f078a4efba9 ;
+                                               rdfs:label "enterprise application architecture element"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_b1796e4a_78fb_496d_bacd_eea652e218fb
 :OWLClass_b1796e4a_78fb_496d_bacd_eea652e218fb rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_6525369d_b1f1_4bd1_90a3_82232a03561c ;
@@ -2260,7 +2302,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0
 :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 rdf:type owl:Class ;
-                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_332c872e_9f5d_43c1_b2b9_19dbaba6fc1b> ;
                                                rdfs:label "enterprise architecture description element"@en .
 
 
@@ -2278,7 +2320,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_b3a09edd_3bcf_4afc_acf7_eebd67404440
 :OWLClass_b3a09edd_3bcf_4afc_acf7_eebd67404440 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_fe833468_a098_49ae_95f3_7766097eeec3 ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d67f8322_20a2_4fae_a5f3_f9c635e4eba2> ;
                                                rdfs:label "technological capability"@en .
 
 
@@ -2412,7 +2454,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_c166f605_fb29_4603_865d_23ef47a7bd29
 :OWLClass_c166f605_fb29_4603_865d_23ef47a7bd29 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_5c7506d3_3e62_4095_8c38_8ef433dd5bcc ;
-                                               rdfs:label "designer"@en .
+                                               rdfs:label "business system capability designer"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_c1e99f94_3eea_44a6_975d_e2289f4931d9
@@ -2439,12 +2481,6 @@
                                                rdfs:label "receiving location"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_c40f4d57_b288_4825_ba7e_f145abc3a110
-:OWLClass_c40f4d57_b288_4825_ba7e_f145abc3a110 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
-                                               rdfs:label "collection"@en .
-
-
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_c4b3603a_b19c_482b_907a_359863b53b3e
 :OWLClass_c4b3603a_b19c_482b_907a_359863b53b3e rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_4d84b389_2a89_41fd_b6fd_1c68aef853ab ;
@@ -2465,7 +2501,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_c7959d72_7155_4c7b_87f9_de005dfaceea
 :OWLClass_c7959d72_7155_4c7b_87f9_de005dfaceea rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_9c5eac58_b0db_4459_baeb_b1668dcdcb3b ;
+                                               rdfs:subClassOf :OWLClass_487c6961_19d8_46d7_b0c5_e82ccd1de1ae ;
                                                rdfs:label "procedure"@en .
 
 
@@ -2533,7 +2569,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_cda69499_98d7_4813_a85c_1775f0064e91
 :OWLClass_cda69499_98d7_4813_a85c_1775f0064e91 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
+                                               rdfs:subClassOf :OWLClass_fe833468_a098_49ae_95f3_7766097eeec3 ;
                                                rdfs:label "Aktivität"@de ,
                                                           "business operating activity"@en ,
                                                           "活动"@zh .
@@ -2585,7 +2621,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_dafc2a0a_e2a0_45dc_a0ea_b498004adeef
 :OWLClass_dafc2a0a_e2a0_45dc_a0ea_b498004adeef rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_5c7506d3_3e62_4095_8c38_8ef433dd5bcc ;
-                                               rdfs:label "manager"@en .
+                                               rdfs:label "business system capability manager"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_dc8bb6e7_8c97_49b4_8de2_13defe047903
@@ -2603,7 +2639,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_df2d5305_0180_44fc_a878_6a8b483d9a6c
 :OWLClass_df2d5305_0180_44fc_a878_6a8b483d9a6c rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_05babf4a_33b2_4ece_90bc_2018d02dd92c ;
-                                               rdfs:label "enterprise governance system architecture element"@en .
+                                               rdfs:label "enterprise financing system architecture element"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_df72ba1d_66f0_4277_a59d_80613f3eeb87
@@ -2638,8 +2674,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_e0a9210c_f08d_4000_9e75_5ac224956cb8
 :OWLClass_e0a9210c_f08d_4000_9e75_5ac224956cb8 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_3bf95372_f30b_441f_8ec9_bbf0228bc9ad ;
-                                               rdfs:label "enterprise business system architecture aspect"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "enterprise business architecture"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_e0e03542_c7f6_41b7_bb7e_56a9bee4aedc
@@ -2758,7 +2794,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_ef86e58c_c8d8_44e3_a364_66f794bf3ec2
 :OWLClass_ef86e58c_c8d8_44e3_a364_66f794bf3ec2 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:comment "a collection of assets, labor, and activities combined into a system to produce value for targeted customers" ;
                                                rdfs:label "business"@en .
 
 
@@ -2771,7 +2808,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_f01ec4ce_6bf1_4f4f_822e_e99e9ccaf19b
 :OWLClass_f01ec4ce_6bf1_4f4f_822e_e99e9ccaf19b rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_05babf4a_33b2_4ece_90bc_2018d02dd92c ;
-                                               rdfs:label "enterprise business investment system architecture element"@en .
+                                               rdfs:label "enterprise investing system architecture element"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_f04a58e3_3ad0_4245_b131_c9953665bcc9
@@ -2788,7 +2825,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_f2f00478_a038_4a3f_8c02_b72853d1e8b0
 :OWLClass_f2f00478_a038_4a3f_8c02_b72853d1e8b0 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_dc8bb6e7_8c97_49b4_8de2_13defe047903 ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_326318f8_ca30_48b6_9850_65fc56694abd> ;
                                                rdfs:label "business relationship role"@en .
 
 
@@ -2812,7 +2849,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_f7ca8b74_b8f1_4887_b4a4_896b22b6884d
 :OWLClass_f7ca8b74_b8f1_4887_b4a4_896b22b6884d rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_dc8bb6e7_8c97_49b4_8de2_13defe047903 ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0> ;
                                                rdfs:label "business transaction role"@en .
 
 
@@ -2842,10 +2879,16 @@
                                                rdfs:label "payment transaction role"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_fd7d5542_36b8_47fc_a18c_1f7150e0b962
+:OWLClass_fd7d5542_36b8_47fc_a18c_1f7150e0b962 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_69cd7e27_747c_44bc_bd8f_6f078a4efba9 ;
+                                               rdfs:label "enterprise data architecture element"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_fd970d0f_ba42_4b1e_8a3a_b4b9f097ea60
 :OWLClass_fd970d0f_ba42_4b1e_8a3a_b4b9f097ea60 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_3bf95372_f30b_441f_8ec9_bbf0228bc9ad ;
-                                               rdfs:label "enterprise information technology system architecture aspect"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "enterprise information technology architecture"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_fde662b9_dfdc_416f_9127_2fb09a9daa76
@@ -2868,10 +2911,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_fe833468_a098_49ae_95f3_7766097eeec3
 :OWLClass_fe833468_a098_49ae_95f3_7766097eeec3 rdf:type owl:Class ;
-                                               rdfs:subClassOf :OWLClass_b31f3df0_bc7c_449f_8589_f3d099b410c0 ;
-                                               rdfs:label "Fähigkeit"@de ,
-                                                          "capability"@en ,
-                                                          "能力"@zh .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_fc1ccdb0_3020_4f35_b14e_718651e15bcb> ;
+                                               rdfs:label "business activity"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_feb615e5_73a6_4a50_8c24_a10214d87ad1
