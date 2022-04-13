@@ -1389,7 +1389,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_4be2dc6e_3930_4a8f_95f0_8b80b5e9bf63
 :OWLClass_4be2dc6e_3930_4a8f_95f0_8b80b5e9bf63 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_f7ca8b74_b8f1_4887_b4a4_896b22b6884d ;
-                                               rdfs:label "trade transaction role"@en .
+                                               rdfs:label "trade transaction responsibility role"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_4c888ecf_4605_4aa5_8c9c_bdb5dc04830d
@@ -1912,7 +1912,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_7fecf4a9_57dc_4b0d_a309_9250df56c92e
 :OWLClass_7fecf4a9_57dc_4b0d_a309_9250df56c92e rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_f7ca8b74_b8f1_4887_b4a4_896b22b6884d ;
-                                               rdfs:label "loan transaction role"@en .
+                                               rdfs:label "loan transaction responsibility role"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_802a6906_fb0a_44b3_8110_c8ee777d71c3
@@ -1941,8 +1941,8 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_83adf2d3_3320_4c87_b20f_841a35411fb3
 :OWLClass_83adf2d3_3320_4c87_b20f_841a35411fb3 rdf:type owl:Class ;
-                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0> ;
-                                               rdfs:label "business system capability implementation role"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_0c7917e6_7b9a_4b06_b80f_45c561c49547> ;
+                                               rdfs:label "business system capability implementation responsibility role"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_841f95e9_81d4_406b_8f94_1ca1cdd5b2d3
@@ -2430,7 +2430,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_b602484b_0981_40a2_8944_69c5f28dcd9d
 :OWLClass_b602484b_0981_40a2_8944_69c5f28dcd9d rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_f7ca8b74_b8f1_4887_b4a4_896b22b6884d ;
-                                               rdfs:label "delivery transaction role"@en .
+                                               rdfs:label "delivery transaction responsibility role"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_b77538db_e543_473a_9be3_799f47d49981
@@ -2449,13 +2449,19 @@
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_b89b982f_e80e_443c_b600_9ac1afbbe54e
 :OWLClass_b89b982f_e80e_443c_b600_9ac1afbbe54e rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_f7ca8b74_b8f1_4887_b4a4_896b22b6884d ;
-                                               rdfs:label "shipment transaction role"@en .
+                                               rdfs:label "shipment transaction responsibility role"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_b90c6f38_a935_4aa6_ac88_d7fc8f8fd54b
 :OWLClass_b90c6f38_a935_4aa6_ac88_d7fc8f8fd54b rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_fd72cdd7_d011_4afa_8110_c561751af764 ;
                                                rdfs:label "payer bank agent"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_b9ac7b4e_dc71_43a4_9b3b_fe267c8dcbb9
+:OWLClass_b9ac7b4e_dc71_43a4_9b3b_fe267c8dcbb9 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_2893c68c_a708_41c1_936f_a24a45e9d982> ;
+                                               rdfs:label "equipment functional role"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_b9e972d2_14c5_4a13_b6e7_3c10c930d116
@@ -2951,10 +2957,16 @@
                                                rdfs:label "reserve asset"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_f700878e_cdb6_4dd7_a385_ee8f82df06e1
+:OWLClass_f700878e_cdb6_4dd7_a385_ee8f82df06e1 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0> ;
+                                               rdfs:label "organization functional role"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_f7ca8b74_b8f1_4887_b4a4_896b22b6884d
 :OWLClass_f7ca8b74_b8f1_4887_b4a4_896b22b6884d rdf:type owl:Class ;
-                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0> ;
-                                               rdfs:label "business transaction role"@en .
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_0c7917e6_7b9a_4b06_b80f_45c561c49547> ;
+                                               rdfs:label "business transaction responsibility role"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_f8ef71ba_5ef5_4963_ac16_4d6165f98586
@@ -2980,7 +2992,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_fd72cdd7_d011_4afa_8110_c561751af764
 :OWLClass_fd72cdd7_d011_4afa_8110_c561751af764 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_f7ca8b74_b8f1_4887_b4a4_896b22b6884d ;
-                                               rdfs:label "payment transaction role"@en .
+                                               rdfs:label "payment transaction responsibility role"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_fd7d5542_36b8_47fc_a18c_1f7150e0b962
