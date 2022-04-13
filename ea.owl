@@ -706,6 +706,12 @@
                                                rdfs:label "importer"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_094fadec_8aa9_4289_9be5_e53dff38da2e
+:OWLClass_094fadec_8aa9_4289_9be5_e53dff38da2e rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "job pay grade"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_0a096b91_7735_43da_94d5_3cdab86a6c09
 :OWLClass_0a096b91_7735_43da_94d5_3cdab86a6c09 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_41d4d83a_6362_4ff2_b2c1_1354337ee94c ;
@@ -764,6 +770,12 @@
 :OWLClass_0ed54e01_62ea_42e0_8d49_e20a5d8b595c rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_7c552096_fb7b_4f65_9cb2_80421fd079c9 ;
                                                rdfs:label "data consumer agent"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_0f533c64_964d_49c1_ad40_059a08f7e4e2
+:OWLClass_0f533c64_964d_49c1_ad40_059a08f7e4e2 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_332c872e_9f5d_43c1_b2b9_19dbaba6fc1b> ;
+                                               rdfs:label "illiquid asset"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_0fd33353_50c7_4515_a081_29edb3706b73
@@ -1052,6 +1064,12 @@
                                                rdfs:label "milestone objective"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_2ea76d08_aa65_41da_a396_7b55c672b324
+:OWLClass_2ea76d08_aa65_41da_a396_7b55c672b324 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_332c872e_9f5d_43c1_b2b9_19dbaba6fc1b> ;
+                                               rdfs:label "liquid asset"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_2ff2cfbe_635a_4634_930d_78dcae06fc93
 :OWLClass_2ff2cfbe_635a_4634_930d_78dcae06fc93 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_564d28e4_6116_4726_8941_0a5838c28070 ;
@@ -1276,6 +1294,12 @@
                                                rdfs:label "scrap location"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_42ec4620_8e7b_4c48_8638_b63caed335b3
+:OWLClass_42ec4620_8e7b_4c48_8638_b63caed335b3 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "job title"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_42f037ee_6eae_47c1_b6ff_d286519d0111
 :OWLClass_42f037ee_6eae_47c1_b6ff_d286519d0111 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_68adefab_64c8_4904_a8e4_e07fda1185a1 ;
@@ -1328,6 +1352,12 @@
 :OWLClass_49673406_5fd0_40b3_a9c6_b33a74344358 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_a578c79f_22ed_4c34_8909_ccb66f9b6e03 ;
                                                rdfs:label "space"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_4a03e4dd_d469_486a_8bbc_030a6c9235b1
+:OWLClass_4a03e4dd_d469_486a_8bbc_030a6c9235b1 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "job class"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_4a4783c9_3c31_48f9_bc69_95feb643dab8
@@ -1602,6 +1632,12 @@
 :OWLClass_602b4d45_b718_4fc0_9b01_84c94fc3dcf7 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_332c872e_9f5d_43c1_b2b9_19dbaba6fc1b> ;
                                                rdfs:label "enterprise architecture transformation work unit"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_611c0024_abb4_437e_9d44_faf781e05cad
+:OWLClass_611c0024_abb4_437e_9d44_faf781e05cad rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "job position"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_61aceff6_f7a4_49b9_967b_65f5605d5ee9
@@ -2530,6 +2566,12 @@
                                                rdfs:label "project"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_c3c5e041_2b41_4620_9a3e_dfeefcaf48cd
+:OWLClass_c3c5e041_2b41_4620_9a3e_dfeefcaf48cd rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_332c872e_9f5d_43c1_b2b9_19dbaba6fc1b> ;
+                                               rdfs:label "asset"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_c4b3603a_b19c_482b_907a_359863b53b3e
 :OWLClass_c4b3603a_b19c_482b_907a_359863b53b3e rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_4d84b389_2a89_41fd_b6fd_1c68aef853ab ;
@@ -2546,6 +2588,12 @@
 :OWLClass_c57e5507_9269_4a29_bee1_8fd164937bf5 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_4be2dc6e_3930_4a8f_95f0_8b80b5e9bf63 ;
                                                rdfs:label "insurer"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_c6547e1e_1bc2_43e2_bbfc_6a404d9be637
+:OWLClass_c6547e1e_1bc2_43e2_bbfc_6a404d9be637 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
+                                               rdfs:label "job"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_c6b7b794_9013_4730_a01a_7b92a7a69929
@@ -2851,7 +2899,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_ef86e58c_c8d8_44e3_a364_66f794bf3ec2
 :OWLClass_ef86e58c_c8d8_44e3_a364_66f794bf3ec2 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_d0900659_d7e4_4673_aeb5_e26e7e3f5213> ;
-                                               rdfs:comment "a collection of assets, labor, and activities combined into a system to produce value for targeted customers" ;
+                                               rdfs:comment "a collection of assets, labor, and activities combined into a system to produce value for targeted customers and capture value from customers" ;
                                                rdfs:label "business"@en .
 
 
