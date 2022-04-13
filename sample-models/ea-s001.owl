@@ -15,6 +15,12 @@
     <Prefix name="ea-001" IRI="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owl"/>
     <Import>https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl</Import>
     <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_0705547c_adeb_46b2_bda8_92272e248e94"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_07955fa7_f062_4474_9305_cc7ba4063902"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_0d959d53_3993_4269_b136_fc56593b5fdd"/>
     </Declaration>
     <Declaration>
@@ -24,16 +30,28 @@
         <NamedIndividual IRI="#OWLNamedIndividual_18bd2797_222b_48cb_920e_5c10f2dfc589"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_1a0ac169_f702_4bd7_b07e_3fd92df14a1c"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_1b0b27d8_82d1_4ec2_89f1_6d4d739300b9"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_2362b396_152d_4f01_a39c_07d465ff1bf3"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_27f8a394_50b9_4e53_a381_92581389a9ef"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_2e1d7aca_40ab_40e6_ae5a_185e8695cb95"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_31747899_dc13_471a_84d7_ee5c126b2fce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_35da4c83_c0ee_4311_8caa_7c53398219e9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_364905f6_9b31_4410_a4c5_d071c04db788"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_3d963dbc_cde1_4588_a971_7cd23b46f662"/>
@@ -51,6 +69,9 @@
         <NamedIndividual IRI="#OWLNamedIndividual_466332ab_1949_4e82_a762_f1cde2bc7dfd"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_536ce803_e85e_4ef8_b44f_c13f0093406b"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_58210fb9_567a_480e_ba81_447a76880cb1"/>
     </Declaration>
     <Declaration>
@@ -66,6 +87,9 @@
         <NamedIndividual IRI="#OWLNamedIndividual_7154cf1f_f6fe_46b9_8cd9_a2df94ae32ec"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_77f1921c_6b50_4ed1_8df7_e16fc33cb45d"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_7a68b40a_a751_44ce_a200_430555d242a7"/>
     </Declaration>
     <Declaration>
@@ -79,6 +103,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_9127de33_5061_451f_9513_c040eb33c25f"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_98c3e452_61aa_4a6b_873e_0630c1b67559"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_9919bc9e_01a3_496b_83c7_65b6491df6f5"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_9aa07648_5bb1_49ab_acec_eaf8868c851d"/>
@@ -99,6 +129,9 @@
         <NamedIndividual IRI="#OWLNamedIndividual_a854b9db_7d8c_4235_acc8_f808b5ba21f5"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_ab04652f_05b5_4d81_9a5a_e17e5e614503"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_b4ffc83c_239b_4ff7_9e05_117311556adc"/>
     </Declaration>
     <Declaration>
@@ -111,7 +144,16 @@
         <NamedIndividual IRI="#OWLNamedIndividual_bb6fa351_0418_426c_997e_63dd2c4335b9"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_bdccdd77_914e_4118_8fe5_5de62b2e75c9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_d6608559_ce50_437f_8ef2_8765dc41a560"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_df0be5f5_d620_47c1_8789_d2f6e72a2f6e"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_e044e017_670b_4176_956c_c2f4f830c183"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_e121c5fc_b69f_47a2_b22c_836b34186b48"/>
@@ -126,7 +168,13 @@
         <NamedIndividual IRI="#OWLNamedIndividual_e25f783d_6082_4174_8f54_0a3e412bc941"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_e82c2b0b_4200_4e2d_94ee_a45331f89d5a"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_eb9d8f72_f01d_41a3_8a71_0f921795d105"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_f35f13f4_7d84_47ca_9e20_ca123c3cc67a"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_f3a56916_6605_402f_96d4_06fb7edebcb7"/>
@@ -135,8 +183,22 @@
         <NamedIndividual IRI="#OWLNamedIndividual_f419fc8f_6c6e_4d64_ab10_2d3f1d1fcc29"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_f8fbceb7_410f_4625_8405_d439210893f8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_faadcd9c_a9a7_4686_8d9b_76386ca43195"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_fc60abc8_4b38_437d_a083_b823477bd6c0"/>
     </Declaration>
+    <ClassAssertion>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0705547c_adeb_46b2_bda8_92272e248e94"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_07955fa7_f062_4474_9305_cc7ba4063902"/>
+    </ClassAssertion>
     <ClassAssertion>
         <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
         <NamedIndividual IRI="#OWLNamedIndividual_0d959d53_3993_4269_b136_fc56593b5fdd"/>
@@ -150,6 +212,10 @@
         <NamedIndividual IRI="#OWLNamedIndividual_18bd2797_222b_48cb_920e_5c10f2dfc589"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1a0ac169_f702_4bd7_b07e_3fd92df14a1c"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
         <NamedIndividual IRI="#OWLNamedIndividual_1b0b27d8_82d1_4ec2_89f1_6d4d739300b9"/>
     </ClassAssertion>
@@ -158,12 +224,24 @@
         <NamedIndividual IRI="#OWLNamedIndividual_2362b396_152d_4f01_a39c_07d465ff1bf3"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_27f8a394_50b9_4e53_a381_92581389a9ef"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
         <NamedIndividual IRI="#OWLNamedIndividual_2e1d7aca_40ab_40e6_ae5a_185e8695cb95"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
         <NamedIndividual IRI="#OWLNamedIndividual_31747899_dc13_471a_84d7_ee5c126b2fce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_35da4c83_c0ee_4311_8caa_7c53398219e9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_364905f6_9b31_4410_a4c5_d071c04db788"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
@@ -186,6 +264,10 @@
         <NamedIndividual IRI="#OWLNamedIndividual_466332ab_1949_4e82_a762_f1cde2bc7dfd"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_536ce803_e85e_4ef8_b44f_c13f0093406b"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
         <NamedIndividual IRI="#OWLNamedIndividual_58210fb9_567a_480e_ba81_447a76880cb1"/>
     </ClassAssertion>
@@ -206,6 +288,10 @@
         <NamedIndividual IRI="#OWLNamedIndividual_7154cf1f_f6fe_46b9_8cd9_a2df94ae32ec"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_77f1921c_6b50_4ed1_8df7_e16fc33cb45d"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_4b0db1c0_4608_4f4f_af5e_1404b28e6203"/>
         <NamedIndividual IRI="#OWLNamedIndividual_7a68b40a_a751_44ce_a200_430555d242a7"/>
     </ClassAssertion>
@@ -224,6 +310,14 @@
     <ClassAssertion>
         <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
         <NamedIndividual IRI="#OWLNamedIndividual_9127de33_5061_451f_9513_c040eb33c25f"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_98c3e452_61aa_4a6b_873e_0630c1b67559"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9919bc9e_01a3_496b_83c7_65b6491df6f5"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
@@ -250,6 +344,10 @@
         <NamedIndividual IRI="#OWLNamedIndividual_a854b9db_7d8c_4235_acc8_f808b5ba21f5"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_aa8ce7bc_e9cf_4ca7_9996_b60788ab0dbc"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ab04652f_05b5_4d81_9a5a_e17e5e614503"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
         <NamedIndividual IRI="#OWLNamedIndividual_b4ffc83c_239b_4ff7_9e05_117311556adc"/>
     </ClassAssertion>
@@ -266,8 +364,20 @@
         <NamedIndividual IRI="#OWLNamedIndividual_bb6fa351_0418_426c_997e_63dd2c4335b9"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_bdccdd77_914e_4118_8fe5_5de62b2e75c9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_d6608559_ce50_437f_8ef2_8765dc41a560"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
         <NamedIndividual IRI="#OWLNamedIndividual_df0be5f5_d620_47c1_8789_d2f6e72a2f6e"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e044e017_670b_4176_956c_c2f4f830c183"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
@@ -287,7 +397,15 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e82c2b0b_4200_4e2d_94ee_a45331f89d5a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
         <NamedIndividual IRI="#OWLNamedIndividual_eb9d8f72_f01d_41a3_8a71_0f921795d105"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f35f13f4_7d84_47ca_9e20_ca123c3cc67a"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
@@ -298,9 +416,27 @@
         <NamedIndividual IRI="#OWLNamedIndividual_f419fc8f_6c6e_4d64_ab10_2d3f1d1fcc29"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f8fbceb7_410f_4625_8405_d439210893f8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_faadcd9c_a9a7_4686_8d9b_76386ca43195"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_4b0db1c0_4608_4f4f_af5e_1404b28e6203"/>
         <NamedIndividual IRI="#OWLNamedIndividual_fc60abc8_4b38_437d_a083_b823477bd6c0"/>
     </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_0705547c_adeb_46b2_bda8_92272e248e94</IRI>
+        <Literal xml:lang="en">prospects database</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_07955fa7_f062_4474_9305_cc7ba4063902</IRI>
+        <Literal xml:lang="en">web content management application system</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_0d959d53_3993_4269_b136_fc56593b5fdd</IRI>
@@ -318,6 +454,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_1a0ac169_f702_4bd7_b07e_3fd92df14a1c</IRI>
+        <Literal xml:lang="en">customer database</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_1b0b27d8_82d1_4ec2_89f1_6d4d739300b9</IRI>
         <Literal xml:lang="en">supply chain management application system</Literal>
     </AnnotationAssertion>
@@ -328,6 +469,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_27f8a394_50b9_4e53_a381_92581389a9ef</IRI>
+        <Literal xml:lang="en">product database</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_2e1d7aca_40ab_40e6_ae5a_185e8695cb95</IRI>
         <Literal xml:lang="en">treasury management application system</Literal>
     </AnnotationAssertion>
@@ -335,6 +481,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_31747899_dc13_471a_84d7_ee5c126b2fce</IRI>
         <Literal xml:lang="en">talent management application system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_35da4c83_c0ee_4311_8caa_7c53398219e9</IRI>
+        <Literal xml:lang="en">identity provider application system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_364905f6_9b31_4410_a4c5_d071c04db788</IRI>
+        <Literal xml:lang="en">community chat instant messaging application system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -363,6 +519,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_536ce803_e85e_4ef8_b44f_c13f0093406b</IRI>
+        <Literal xml:lang="en">sales database</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_58210fb9_567a_480e_ba81_447a76880cb1</IRI>
         <Literal xml:lang="en">shipment management application system</Literal>
     </AnnotationAssertion>
@@ -388,6 +549,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_77f1921c_6b50_4ed1_8df7_e16fc33cb45d</IRI>
+        <Literal xml:lang="en">email messaging application system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_7a68b40a_a751_44ce_a200_430555d242a7</IRI>
         <Literal xml:lang="en">peoplesoft-fscm-1-dev</Literal>
     </AnnotationAssertion>
@@ -410,6 +576,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_9127de33_5061_451f_9513_c040eb33c25f</IRI>
         <Literal xml:lang="en">transportation management application system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_98c3e452_61aa_4a6b_873e_0630c1b67559</IRI>
+        <Literal xml:lang="en">employee database</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_9919bc9e_01a3_496b_83c7_65b6491df6f5</IRI>
+        <Literal xml:lang="en">location database</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -443,6 +619,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_ab04652f_05b5_4d81_9a5a_e17e5e614503</IRI>
+        <Literal xml:lang="en">generate sustainable returns on investment to company owners</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_b4ffc83c_239b_4ff7_9e05_117311556adc</IRI>
         <Literal xml:lang="en">warehouse management application system</Literal>
     </AnnotationAssertion>
@@ -463,8 +644,23 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_bdccdd77_914e_4118_8fe5_5de62b2e75c9</IRI>
+        <Literal xml:lang="en">bill-of-materials database</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_d6608559_ce50_437f_8ef2_8765dc41a560</IRI>
+        <Literal xml:lang="en">l2 load balancer application system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_df0be5f5_d620_47c1_8789_d2f6e72a2f6e</IRI>
         <Literal xml:lang="en">manufacturing management application system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_e044e017_670b_4176_956c_c2f4f830c183</IRI>
+        <Literal xml:lang="en">inventory database</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -488,8 +684,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_e82c2b0b_4200_4e2d_94ee_a45331f89d5a</IRI>
+        <Literal xml:lang="en">financial resource management application system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_eb9d8f72_f01d_41a3_8a71_0f921795d105</IRI>
         <Literal xml:lang="en">employee travel management application system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_f35f13f4_7d84_47ca_9e20_ca123c3cc67a</IRI>
+        <Literal xml:lang="en">dns application system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -500,6 +706,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_f419fc8f_6c6e_4d64_ab10_2d3f1d1fcc29</IRI>
         <Literal xml:lang="en">facilities management application system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_f8fbceb7_410f_4625_8405_d439210893f8</IRI>
+        <Literal xml:lang="en">load balancer application system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_faadcd9c_a9a7_4686_8d9b_76386ca43195</IRI>
+        <Literal xml:lang="en">user database</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
