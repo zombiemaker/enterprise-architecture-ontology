@@ -535,6 +535,14 @@
                                                         rdfs:label "capacitance uom"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471
+:OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLObjectProperty_dc0399b7_58c3_44c1_b4d1_e6a1a8826208> ;
+                                                        rdfs:domain <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                        rdfs:range :OWLClass_5daa89cc_51be_49a5_84f0_a306dc596841 ;
+                                                        rdfs:label "application system change management role"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e63f0939_5759_47b3_9dd4_8e7a2975d9c0
 :OWLObjectProperty_e63f0939_5759_47b3_9dd4_8e7a2975d9c0 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_77d676aa_daaf_4699_90e7_dac2eefc64c3 ;
