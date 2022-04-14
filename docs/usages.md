@@ -23,6 +23,7 @@
   * which activity segments?
   * which organization segments?
   * which job class segments?
+* Which resources are used to provide this capability?
 * Which segments of the enterprise uses / needs this category of information?
   * which organization segments?
   * which indidvidual persons?
