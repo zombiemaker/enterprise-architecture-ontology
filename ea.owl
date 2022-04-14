@@ -1559,6 +1559,12 @@
                                                rdfs:label "data resource responsibility role"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_5daa89cc_51be_49a5_84f0_a306dc596841
+:OWLClass_5daa89cc_51be_49a5_84f0_a306dc596841 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0> ;
+                                               rdfs:label "it landscape change management role"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_5dc887de_0a03_4b33_822d_d1c6fb4bb1ca
 :OWLClass_5dc887de_0a03_4b33_822d_d1c6fb4bb1ca rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_4e92e676_56ab_4acc_bfbb_dfc1f42b7006 ;
