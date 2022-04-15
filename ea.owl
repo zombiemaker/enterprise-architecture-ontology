@@ -457,6 +457,14 @@
                                                         rdfs:label "international resource identifier"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_c9380811_34c3_46ed_b1ec_9ee366cffa80
+:OWLObjectProperty_c9380811_34c3_46ed_b1ec_9ee366cffa80 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439> ;
+                                                        rdfs:domain <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                        rdfs:range <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                        rdfs:label "fills role"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_c99d2663_d13b_43c3_b99d_1f807fbd6052
 :OWLObjectProperty_c99d2663_d13b_43c3_b99d_1f807fbd6052 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_2942d0dc_6e59_4da2_a914_87fc17bc8241 ;
