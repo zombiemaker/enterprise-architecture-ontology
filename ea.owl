@@ -16,7 +16,8 @@
 #################################################################
 
 ###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439
-<https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439> rdfs:domain <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> .
+<https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439> rdf:type owl:ObjectProperty ;
+                                                                                                                                              rdfs:domain <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_005fad1f_9554_45f8_99cd_26995c4a3a2f
@@ -464,8 +465,8 @@
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_c9380811_34c3_46ed_b1ec_9ee366cffa80
 :OWLObjectProperty_c9380811_34c3_46ed_b1ec_9ee366cffa80 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439> ;
-                                                        rdfs:domain <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
-                                                        rdfs:range <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                        rdfs:domain <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                        rdfs:range <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
                                                         rdfs:label "fills applicaiton system functional role"@en .
 
 
