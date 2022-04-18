@@ -1360,7 +1360,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_4a4783c9_3c31_48f9_bc69_95feb643dab8
 :OWLClass_4a4783c9_3c31_48f9_bc69_95feb643dab8 rdf:type owl:Class ;
-                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_64a536f4_78cf_4176_8e3b_7af76be3fbb1> ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/human-relationship.owl#OWLClass_64a536f4_78cf_4176_8e3b_7af76be3fbb1> ;
                                                rdfs:label "Organisation"@de ,
                                                           "enterprise organization unit"@en ,
                                                           "组织"@zh .
@@ -3023,8 +3023,8 @@
                                                rdfs:label "data producer agent"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_64a536f4_78cf_4176_8e3b_7af76be3fbb1
-<https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_64a536f4_78cf_4176_8e3b_7af76be3fbb1> rdf:type owl:Class .
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/human-relationship.owl#OWLClass_64a536f4_78cf_4176_8e3b_7af76be3fbb1
+<https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/human-relationship.owl#OWLClass_64a536f4_78cf_4176_8e3b_7af76be3fbb1> rdf:type owl:Class .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_0442c9e7_5661_4019_b059_1857fae0e7c0
