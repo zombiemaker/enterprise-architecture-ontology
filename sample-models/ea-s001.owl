@@ -1,1311 +1,698 @@
-<?xml version="1.0"?>
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owl">
-    <Prefix name="" IRI="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owl"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl</Import>
-    <Import>https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl</Import>
-    <Import>https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/human-relationship.owl</Import>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal>a sample enterprise architecture model</Literal>
-    </Annotation>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_0705547c_adeb_46b2_bda8_92272e248e94"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_07955fa7_f062_4474_9305_cc7ba4063902"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_09bbc523_6612_4928_97bf_c9b2905523c2"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_0d959d53_3993_4269_b136_fc56593b5fdd"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_15076bf4_5fa3_4536_886a_16401f92d471"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_18bd2797_222b_48cb_920e_5c10f2dfc589"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_1a0ac169_f702_4bd7_b07e_3fd92df14a1c"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_1b0b27d8_82d1_4ec2_89f1_6d4d739300b9"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_20621778_fad0_47e6_b26d_2bad6eaf57c0"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_22c3b69d_26ab_4cac_ab61_c9c83f616553"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_2362b396_152d_4f01_a39c_07d465ff1bf3"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_25000b4b_c560_47bb_8d19_bc2db4e4d839"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_277e0a3e_cf7d_4ea7_93c9_80f49605cc0f"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_27f8a394_50b9_4e53_a381_92581389a9ef"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_29f002a7_cb9d_43a7_9476_36015c6ccba4"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_2e1d7aca_40ab_40e6_ae5a_185e8695cb95"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_2f2f1e56_c81e_4fb1_808d_d2bf65aa922a"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_31747899_dc13_471a_84d7_ee5c126b2fce"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_35da4c83_c0ee_4311_8caa_7c53398219e9"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_364905f6_9b31_4410_a4c5_d071c04db788"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_3a4667a0_26ce_470b_bb2e_68353c5ae86e"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_3d963dbc_cde1_4588_a971_7cd23b46f662"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_3e00ead8_f5be_44f1_97ea_f7c83b3158f8"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_4603684c_8091_4314_82f0_bbb3cc24c0dd"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_46096047_46b1_4571_addf_b9397b7fb447"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_466332ab_1949_4e82_a762_f1cde2bc7dfd"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_466a8657_963c_4ee3_a604_749597ea4b6f"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_48ff35e0_6c19_4f12_aa83_a8e90f3cf90f"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_4a309be0_f4b3_4ac3_9d62_787982d7a049"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_4ae31c0a_98ef_4deb_8d25_c98726d42f12"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_4b971e4b_b165_4c1d_b40c_c892bae02bf4"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_536ce803_e85e_4ef8_b44f_c13f0093406b"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_54163340_6d34_4650_98ec_8a94dc068fa6"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_58210fb9_567a_480e_ba81_447a76880cb1"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_5b0b46ab_5348_4591_8a95_e9cdd0ad5fcf"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_5d6c10ef_2827_46d3_b5fe_0d87b079d355"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_6136fa81_d7d8_4eac_9174_74657e742f63"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_6a32cec4_22e4_4cc3_b0c3_d0d64a44abb9"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_6b70bd0d_c57b_4a00_a181_f32acef4b71f"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_70daaddc_dc99_4ffa_ad69_26a134204523"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_7154cf1f_f6fe_46b9_8cd9_a2df94ae32ec"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_77f1921c_6b50_4ed1_8df7_e16fc33cb45d"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_78328808_c15a_4b49_8aea_b3a0a85ef038"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_7980a682_8a56_4e71_b635_8b0e50956767"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_7a20b46c_686f_4f2f_b35b_4338bb587739"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_7a68b40a_a751_44ce_a200_430555d242a7"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_7f6477e3_539c_4fc1_8aed_0705dea0a94c"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_7f9f8071_65f3_4155_ace6_3937cbaabe00"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_807f484a_cc36_4347_979d_e166551169d3"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_86654410_6a9e_48e1_924a_d1a0a4753892"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_8805d223_e1a1_4504_acde_18672a5a89a4"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_89227bd5_9386_4ee4_b180_d4798fcf8d37"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_8b0b26f8_b392_4c20_82e9_cedf4e657134"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_8e128cb6_cf90_4dfd_8ac0_81bc57b0b479"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_906ae571_cd8a_4f32_b6a5_8ac2df298b0f"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_9127de33_5061_451f_9513_c040eb33c25f"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_95cd287c_287a_4b5a_bce4_0fd7a9de5166"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_98c3e452_61aa_4a6b_873e_0630c1b67559"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_9919bc9e_01a3_496b_83c7_65b6491df6f5"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_9aa07648_5bb1_49ab_acec_eaf8868c851d"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_9db24fa8_c715_4a39_a296_1348dbaadda5"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_9dd413a4_f2e3_4784_b6a5_ed787e5f50ae"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_9e407813_7b47_409f_bb4f_fd9e42662f96"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_a3128615_0603_40d6_a7f2_b582042323ad"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_a3a8561b_a26e_45af_9e39_8723d0728785"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_a5d0f29e_9ed1_47ec_aeee_01ed182636a1"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_a854b9db_7d8c_4235_acc8_f808b5ba21f5"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_ab04652f_05b5_4d81_9a5a_e17e5e614503"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_adefa5af_6fd4_4f43_9a90_766f6034b7df"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_b0a79996_b814_4174_a667_2ffcc0abf7c3"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_b242fb07_9b30_4b6d_b6e0_63007c9a6e73"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_b27d7ddf_338f_415f_bdea_2eab4e2c15c7"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_b4ffc83c_239b_4ff7_9e05_117311556adc"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_b87c33c4_c7ed_40be_8282_7f5103fed51c"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_bad6a179_ca3b_430b_8020_5306d76c8e5b"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_bb35c63e_8e14_4005_9a68_3338be34ac07"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_bb6fa351_0418_426c_997e_63dd2c4335b9"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_bc26e062_aeeb_4eff_844a_5b1831ab02c3"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_bdccdd77_914e_4118_8fe5_5de62b2e75c9"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_c27a35ac_634a_4543_9c69_09b576283d30"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_c85ac1b8_d50d_4939_b162_b0a9e7f503f5"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_cedeca57_83d8_41bd_93de_8b533199217e"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_cf54ee09_40bf_4820_9ea6_4dbe8d043e90"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_d4bcf852_e323_467d_a568_f070f4b2440d"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_d6608559_ce50_437f_8ef2_8765dc41a560"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_db01f5e6_935b_4894_9f66_6e77f01077dd"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_df0be5f5_d620_47c1_8789_d2f6e72a2f6e"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_e044e017_670b_4176_956c_c2f4f830c183"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_e121c5fc_b69f_47a2_b22c_836b34186b48"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_e197208c_8aab_4d72_8262_171f8a3914d8"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_e2052dcb_7340_4555_a461_686d350630ab"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_e25f783d_6082_4174_8f54_0a3e412bc941"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_e51c8cb9_eddd_4378_afb0_6f1247dea902"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_e69b31c0_5074_4f5f_a027_ab98f177d734"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_e70bec5d_2d93_4dbf_b0ff_3f59a260f236"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_e8126624_af77_4921_a63e_75842a378d43"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_e82c2b0b_4200_4e2d_94ee_a45331f89d5a"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_eb2ea398_663a_4bb3_8a8b_cdcb57745205"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_eb9d8f72_f01d_41a3_8a71_0f921795d105"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_f35f13f4_7d84_47ca_9e20_ca123c3cc67a"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_f3a56916_6605_402f_96d4_06fb7edebcb7"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_f419fc8f_6c6e_4d64_ab10_2d3f1d1fcc29"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_f4a9f864_648a_46f4_8b9a_b9c6d8cdfa46"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_f6654800_f11e_4b37_9540_423987f4f9b0"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_f8fbceb7_410f_4625_8405_d439210893f8"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_faadcd9c_a9a7_4686_8d9b_76386ca43195"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_fc60abc8_4b38_437d_a083_b823477bd6c0"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_0705547c_adeb_46b2_bda8_92272e248e94"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_07955fa7_f062_4474_9305_cc7ba4063902"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_09bbc523_6612_4928_97bf_c9b2905523c2"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_0d959d53_3993_4269_b136_fc56593b5fdd"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_15076bf4_5fa3_4536_886a_16401f92d471"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_18bd2797_222b_48cb_920e_5c10f2dfc589"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_1a0ac169_f702_4bd7_b07e_3fd92df14a1c"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_1b0b27d8_82d1_4ec2_89f1_6d4d739300b9"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_20621778_fad0_47e6_b26d_2bad6eaf57c0"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_22c3b69d_26ab_4cac_ab61_c9c83f616553"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_2362b396_152d_4f01_a39c_07d465ff1bf3"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_25000b4b_c560_47bb_8d19_bc2db4e4d839"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_aa6660fd_ef83_4b1d_876a_cdf332fb45a8"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_277e0a3e_cf7d_4ea7_93c9_80f49605cc0f"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_27f8a394_50b9_4e53_a381_92581389a9ef"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_aa6660fd_ef83_4b1d_876a_cdf332fb45a8"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_29f002a7_cb9d_43a7_9476_36015c6ccba4"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_2e1d7aca_40ab_40e6_ae5a_185e8695cb95"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_2f2f1e56_c81e_4fb1_808d_d2bf65aa922a"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_31747899_dc13_471a_84d7_ee5c126b2fce"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_35da4c83_c0ee_4311_8caa_7c53398219e9"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_364905f6_9b31_4410_a4c5_d071c04db788"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_3a4667a0_26ce_470b_bb2e_68353c5ae86e"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_3d963dbc_cde1_4588_a971_7cd23b46f662"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_3e00ead8_f5be_44f1_97ea_f7c83b3158f8"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_4603684c_8091_4314_82f0_bbb3cc24c0dd"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_46096047_46b1_4571_addf_b9397b7fb447"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_466332ab_1949_4e82_a762_f1cde2bc7dfd"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_466a8657_963c_4ee3_a604_749597ea4b6f"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_48ff35e0_6c19_4f12_aa83_a8e90f3cf90f"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_4a309be0_f4b3_4ac3_9d62_787982d7a049"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_4ae31c0a_98ef_4deb_8d25_c98726d42f12"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_5daa89cc_51be_49a5_84f0_a306dc596841"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_4b971e4b_b165_4c1d_b40c_c892bae02bf4"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_536ce803_e85e_4ef8_b44f_c13f0093406b"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_5daa89cc_51be_49a5_84f0_a306dc596841"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_54163340_6d34_4650_98ec_8a94dc068fa6"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_58210fb9_567a_480e_ba81_447a76880cb1"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_5b0b46ab_5348_4591_8a95_e9cdd0ad5fcf"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_5d6c10ef_2827_46d3_b5fe_0d87b079d355"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_6136fa81_d7d8_4eac_9174_74657e742f63"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_5daa89cc_51be_49a5_84f0_a306dc596841"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_6a32cec4_22e4_4cc3_b0c3_d0d64a44abb9"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_6b70bd0d_c57b_4a00_a181_f32acef4b71f"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_70daaddc_dc99_4ffa_ad69_26a134204523"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_7154cf1f_f6fe_46b9_8cd9_a2df94ae32ec"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_77f1921c_6b50_4ed1_8df7_e16fc33cb45d"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_aa6660fd_ef83_4b1d_876a_cdf332fb45a8"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_78328808_c15a_4b49_8aea_b3a0a85ef038"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_5daa89cc_51be_49a5_84f0_a306dc596841"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_7980a682_8a56_4e71_b635_8b0e50956767"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_aa6660fd_ef83_4b1d_876a_cdf332fb45a8"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_7a20b46c_686f_4f2f_b35b_4338bb587739"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_7a68b40a_a751_44ce_a200_430555d242a7"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_7f6477e3_539c_4fc1_8aed_0705dea0a94c"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_7f9f8071_65f3_4155_ace6_3937cbaabe00"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_aa6660fd_ef83_4b1d_876a_cdf332fb45a8"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_807f484a_cc36_4347_979d_e166551169d3"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_86654410_6a9e_48e1_924a_d1a0a4753892"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_8805d223_e1a1_4504_acde_18672a5a89a4"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_89227bd5_9386_4ee4_b180_d4798fcf8d37"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_8b0b26f8_b392_4c20_82e9_cedf4e657134"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_8e128cb6_cf90_4dfd_8ac0_81bc57b0b479"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_906ae571_cd8a_4f32_b6a5_8ac2df298b0f"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_9127de33_5061_451f_9513_c040eb33c25f"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_95cd287c_287a_4b5a_bce4_0fd7a9de5166"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_98c3e452_61aa_4a6b_873e_0630c1b67559"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_9919bc9e_01a3_496b_83c7_65b6491df6f5"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_9aa07648_5bb1_49ab_acec_eaf8868c851d"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_9db24fa8_c715_4a39_a296_1348dbaadda5"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_9dd413a4_f2e3_4784_b6a5_ed787e5f50ae"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_9e407813_7b47_409f_bb4f_fd9e42662f96"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_a3128615_0603_40d6_a7f2_b582042323ad"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_a3a8561b_a26e_45af_9e39_8723d0728785"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_a5d0f29e_9ed1_47ec_aeee_01ed182636a1"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_a854b9db_7d8c_4235_acc8_f808b5ba21f5"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_aa8ce7bc_e9cf_4ca7_9996_b60788ab0dbc"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_ab04652f_05b5_4d81_9a5a_e17e5e614503"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_adefa5af_6fd4_4f43_9a90_766f6034b7df"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_b0a79996_b814_4174_a667_2ffcc0abf7c3"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_b242fb07_9b30_4b6d_b6e0_63007c9a6e73"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_5daa89cc_51be_49a5_84f0_a306dc596841"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_b27d7ddf_338f_415f_bdea_2eab4e2c15c7"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_b4ffc83c_239b_4ff7_9e05_117311556adc"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_b87c33c4_c7ed_40be_8282_7f5103fed51c"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_bad6a179_ca3b_430b_8020_5306d76c8e5b"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_bb35c63e_8e14_4005_9a68_3338be34ac07"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_bb6fa351_0418_426c_997e_63dd2c4335b9"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_bc26e062_aeeb_4eff_844a_5b1831ab02c3"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_bdccdd77_914e_4118_8fe5_5de62b2e75c9"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_c27a35ac_634a_4543_9c69_09b576283d30"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_c85ac1b8_d50d_4939_b162_b0a9e7f503f5"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_cedeca57_83d8_41bd_93de_8b533199217e"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_cf54ee09_40bf_4820_9ea6_4dbe8d043e90"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_d4bcf852_e323_467d_a568_f070f4b2440d"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_d6608559_ce50_437f_8ef2_8765dc41a560"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_db01f5e6_935b_4894_9f66_6e77f01077dd"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_df0be5f5_d620_47c1_8789_d2f6e72a2f6e"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_e044e017_670b_4176_956c_c2f4f830c183"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_e121c5fc_b69f_47a2_b22c_836b34186b48"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_e197208c_8aab_4d72_8262_171f8a3914d8"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_e2052dcb_7340_4555_a461_686d350630ab"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_e25f783d_6082_4174_8f54_0a3e412bc941"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_e51c8cb9_eddd_4378_afb0_6f1247dea902"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_e69b31c0_5074_4f5f_a027_ab98f177d734"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_e70bec5d_2d93_4dbf_b0ff_3f59a260f236"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_e8126624_af77_4921_a63e_75842a378d43"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_e82c2b0b_4200_4e2d_94ee_a45331f89d5a"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_aa6660fd_ef83_4b1d_876a_cdf332fb45a8"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_eb2ea398_663a_4bb3_8a8b_cdcb57745205"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_eb9d8f72_f01d_41a3_8a71_0f921795d105"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_f35f13f4_7d84_47ca_9e20_ca123c3cc67a"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_f3a56916_6605_402f_96d4_06fb7edebcb7"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_f419fc8f_6c6e_4d64_ab10_2d3f1d1fcc29"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_f4a9f864_648a_46f4_8b9a_b9c6d8cdfa46"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_f6654800_f11e_4b37_9540_423987f4f9b0"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_f8fbceb7_410f_4625_8405_d439210893f8"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_faadcd9c_a9a7_4686_8d9b_76386ca43195"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_fc60abc8_4b38_437d_a083_b823477bd6c0"/>
-    </ClassAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_0705547c_adeb_46b2_bda8_92272e248e94</IRI>
-        <Literal xml:lang="en">prospects database</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_07955fa7_f062_4474_9305_cc7ba4063902</IRI>
-        <Literal xml:lang="en">web content management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_09bbc523_6612_4928_97bf_c9b2905523c2</IRI>
-        <Literal xml:lang="en">apache-kafka-connect-src-sql-server-1-prd</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_0d959d53_3993_4269_b136_fc56593b5fdd</IRI>
-        <Literal xml:lang="en">customer relationship management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_15076bf4_5fa3_4536_886a_16401f92d471</IRI>
-        <Literal xml:lang="en">accounting application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_18bd2797_222b_48cb_920e_5c10f2dfc589</IRI>
-        <Literal xml:lang="en">accounts receivable management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_1a0ac169_f702_4bd7_b07e_3fd92df14a1c</IRI>
-        <Literal xml:lang="en">customer database</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_1b0b27d8_82d1_4ec2_89f1_6d4d739300b9</IRI>
-        <Literal xml:lang="en">supply chain management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_20621778_fad0_47e6_b26d_2bad6eaf57c0</IRI>
-        <Literal xml:lang="en">apache-kafka-broker-1-dev</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_22c3b69d_26ab_4cac_ab61_c9c83f616553</IRI>
-        <Literal xml:lang="en">apache-kafka-broker-1-prd</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_2362b396_152d_4f01_a39c_07d465ff1bf3</IRI>
-        <Literal xml:lang="en">tibco-ebx-1-dev</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_25000b4b_c560_47bb_8d19_bc2db4e4d839</IRI>
-        <Literal xml:lang="en">vs006.dc02.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_277e0a3e_cf7d_4ea7_93c9_80f49605cc0f</IRI>
-        <Literal xml:lang="en">ps002.dc02.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_27f8a394_50b9_4e53_a381_92581389a9ef</IRI>
-        <Literal xml:lang="en">product database</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_29f002a7_cb9d_43a7_9476_36015c6ccba4</IRI>
-        <Literal xml:lang="en">ps002.dc01.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_2e1d7aca_40ab_40e6_ae5a_185e8695cb95</IRI>
-        <Literal xml:lang="en">treasury management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_2f2f1e56_c81e_4fb1_808d_d2bf65aa922a</IRI>
-        <Literal xml:lang="en">apache-kafka-3.1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_31747899_dc13_471a_84d7_ee5c126b2fce</IRI>
-        <Literal xml:lang="en">talent management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_35da4c83_c0ee_4311_8caa_7c53398219e9</IRI>
-        <Literal xml:lang="en">identity provider application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_364905f6_9b31_4410_a4c5_d071c04db788</IRI>
-        <Literal xml:lang="en">community chat instant messaging application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_3a4667a0_26ce_470b_bb2e_68353c5ae86e</IRI>
-        <Literal xml:lang="en">vs008.dc01.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_3d963dbc_cde1_4588_a971_7cd23b46f662</IRI>
-        <Literal xml:lang="en">financial forecasting application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_3e00ead8_f5be_44f1_97ea_f7c83b3158f8</IRI>
-        <Literal xml:lang="en">location master data management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_4603684c_8091_4314_82f0_bbb3cc24c0dd</IRI>
-        <Literal xml:lang="en">shipping management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_46096047_46b1_4571_addf_b9397b7fb447</IRI>
-        <Literal xml:lang="en">vendor master data management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_466332ab_1949_4e82_a762_f1cde2bc7dfd</IRI>
-        <Literal xml:lang="en">inventory management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_466a8657_963c_4ee3_a604_749597ea4b6f</IRI>
-        <Literal xml:lang="en">debezium-kakfa-connect-sink-sql-server-x</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_48ff35e0_6c19_4f12_aa83_a8e90f3cf90f</IRI>
-        <Literal xml:lang="en">vs008.dc02.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_4a309be0_f4b3_4ac3_9d62_787982d7a049</IRI>
-        <Literal xml:lang="en">tibco-ebx-6.0.5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_4ae31c0a_98ef_4deb_8d25_c98726d42f12</IRI>
-        <Literal xml:lang="en">vs006.dc01.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_4b971e4b_b165_4c1d_b40c_c892bae02bf4</IRI>
-        <Literal xml:lang="en">sandbox</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_536ce803_e85e_4ef8_b44f_c13f0093406b</IRI>
-        <Literal xml:lang="en">sales database</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_54163340_6d34_4650_98ec_8a94dc068fa6</IRI>
-        <Literal xml:lang="en">testing performance</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_58210fb9_567a_480e_ba81_447a76880cb1</IRI>
-        <Literal xml:lang="en">shipment management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_5b0b46ab_5348_4591_8a95_e9cdd0ad5fcf</IRI>
-        <Literal xml:lang="en">cash management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_5d6c10ef_2827_46d3_b5fe_0d87b079d355</IRI>
-        <Literal xml:lang="en">customer master data management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_6136fa81_d7d8_4eac_9174_74657e742f63</IRI>
-        <Literal xml:lang="en">apache-kafka-connect-sink-tibco-ems-1-prd</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_6a32cec4_22e4_4cc3_b0c3_d0d64a44abb9</IRI>
-        <Literal xml:lang="en">development</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_6b70bd0d_c57b_4a00_a181_f32acef4b71f</IRI>
-        <Literal xml:lang="en">apache-kafka-connect-src-tibco-ems-1-prd</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_70daaddc_dc99_4ffa_ad69_26a134204523</IRI>
-        <Literal xml:lang="en">peoplesoft-fscm-1-prd</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_7154cf1f_f6fe_46b9_8cd9_a2df94ae32ec</IRI>
-        <Literal xml:lang="en">peoplesoft-fscm-1-tst</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_77f1921c_6b50_4ed1_8df7_e16fc33cb45d</IRI>
-        <Literal xml:lang="en">email messaging application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_78328808_c15a_4b49_8aea_b3a0a85ef038</IRI>
-        <Literal xml:lang="en">ps003.dc02.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_7980a682_8a56_4e71_b635_8b0e50956767</IRI>
-        <Literal xml:lang="en">testing function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_7a20b46c_686f_4f2f_b35b_4338bb587739</IRI>
-        <Literal xml:lang="en">ps003.dc01.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_7a68b40a_a751_44ce_a200_430555d242a7</IRI>
-        <Literal xml:lang="en">peoplesoft-fscm-1-dev</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_7f6477e3_539c_4fc1_8aed_0705dea0a94c</IRI>
-        <Literal xml:lang="en">apache-kafka-broker-1-tst</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_7f9f8071_65f3_4155_ace6_3937cbaabe00</IRI>
-        <Literal xml:lang="en">apache-kafka-connect-sink-sql-server-1-prd</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_807f484a_cc36_4347_979d_e166551169d3</IRI>
-        <Literal xml:lang="en">ps001.dc02.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_86654410_6a9e_48e1_924a_d1a0a4753892</IRI>
-        <Literal xml:lang="en">demand forecasting application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_8805d223_e1a1_4504_acde_18672a5a89a4</IRI>
-        <Literal xml:lang="en">vs002.dc01.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_89227bd5_9386_4ee4_b180_d4798fcf8d37</IRI>
-        <Literal xml:lang="en">employee expense management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_8b0b26f8_b392_4c20_82e9_cedf4e657134</IRI>
-        <Literal xml:lang="en">tibco-ems-1-tst</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_8e128cb6_cf90_4dfd_8ac0_81bc57b0b479</IRI>
-        <Literal xml:lang="en">sales management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_906ae571_cd8a_4f32_b6a5_8ac2df298b0f</IRI>
-        <Literal xml:lang="en">vs009.dc02.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_9127de33_5061_451f_9513_c040eb33c25f</IRI>
-        <Literal xml:lang="en">transportation management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_95cd287c_287a_4b5a_bce4_0fd7a9de5166</IRI>
-        <Literal xml:lang="en">vs009.dc01.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_98c3e452_61aa_4a6b_873e_0630c1b67559</IRI>
-        <Literal xml:lang="en">employee database</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_9919bc9e_01a3_496b_83c7_65b6491df6f5</IRI>
-        <Literal xml:lang="en">location database</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_9aa07648_5bb1_49ab_acec_eaf8868c851d</IRI>
-        <Literal xml:lang="en">vendor relationship management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_9db24fa8_c715_4a39_a296_1348dbaadda5</IRI>
-        <Literal xml:lang="en">vs007.dc01.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_9dd413a4_f2e3_4784_b6a5_ed787e5f50ae</IRI>
-        <Literal xml:lang="en">delivery management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_9e407813_7b47_409f_bb4f_fd9e42662f96</IRI>
-        <Literal xml:lang="en">apache-kafka-broker-3-prd</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_a3128615_0603_40d6_a7f2_b582042323ad</IRI>
-        <Literal xml:lang="en">employee master data management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_a3a8561b_a26e_45af_9e39_8723d0728785</IRI>
-        <Literal xml:lang="en">accounts payable management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_a5d0f29e_9ed1_47ec_aeee_01ed182636a1</IRI>
-        <Literal xml:lang="en">purchase management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_a854b9db_7d8c_4235_acc8_f808b5ba21f5</IRI>
-        <Literal xml:lang="en">business record management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_ab04652f_05b5_4d81_9a5a_e17e5e614503</IRI>
-        <Literal xml:lang="en">generate sustainable returns on investment to company owners</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_adefa5af_6fd4_4f43_9a90_766f6034b7df</IRI>
-        <Literal xml:lang="en">tibco-ems-1-prd</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_b0a79996_b814_4174_a667_2ffcc0abf7c3</IRI>
-        <Literal xml:lang="en">peoplesoft-fscm-9.2</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_b242fb07_9b30_4b6d_b6e0_63007c9a6e73</IRI>
-        <Literal xml:lang="en">vs003.dc01.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_b27d7ddf_338f_415f_bdea_2eab4e2c15c7</IRI>
-        <Literal xml:lang="en">production</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_b4ffc83c_239b_4ff7_9e05_117311556adc</IRI>
-        <Literal xml:lang="en">warehouse management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_b87c33c4_c7ed_40be_8282_7f5103fed51c</IRI>
-        <Literal xml:lang="en">vs001.dc02.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_bad6a179_ca3b_430b_8020_5306d76c8e5b</IRI>
-        <Literal xml:lang="en">capacity planning application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_bb35c63e_8e14_4005_9a68_3338be34ac07</IRI>
-        <Literal xml:lang="en">receiving management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_bb6fa351_0418_426c_997e_63dd2c4335b9</IRI>
-        <Literal xml:lang="en">tibco-ebx-1-tst</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_bc26e062_aeeb_4eff_844a_5b1831ab02c3</IRI>
-        <Literal xml:lang="en">vs004.dc02.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_bdccdd77_914e_4118_8fe5_5de62b2e75c9</IRI>
-        <Literal xml:lang="en">bill-of-materials database</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_c27a35ac_634a_4543_9c69_09b576283d30</IRI>
-        <Literal xml:lang="en">vs005.dc01.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_c85ac1b8_d50d_4939_b162_b0a9e7f503f5</IRI>
-        <Literal xml:lang="en">vs004.dc01.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_cedeca57_83d8_41bd_93de_8b533199217e</IRI>
-        <Literal xml:lang="en">apache-kafka-connect-src-db2-prd</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_cf54ee09_40bf_4820_9ea6_4dbe8d043e90</IRI>
-        <Literal xml:lang="en">debezium-kafka-connect-src-sql-server-x</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_d4bcf852_e323_467d_a568_f070f4b2440d</IRI>
-        <Literal xml:lang="en">tibco-ems-8.6.0</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_d6608559_ce50_437f_8ef2_8765dc41a560</IRI>
-        <Literal xml:lang="en">l2 load balancer application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_db01f5e6_935b_4894_9f66_6e77f01077dd</IRI>
-        <Literal xml:lang="en">vs007.dc02.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_df0be5f5_d620_47c1_8789_d2f6e72a2f6e</IRI>
-        <Literal xml:lang="en">manufacturing management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_e044e017_670b_4176_956c_c2f4f830c183</IRI>
-        <Literal xml:lang="en">inventory database</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_e121c5fc_b69f_47a2_b22c_836b34186b48</IRI>
-        <Literal xml:lang="en">item master data management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_e197208c_8aab_4d72_8262_171f8a3914d8</IRI>
-        <Literal xml:lang="en">equipment management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_e2052dcb_7340_4555_a461_686d350630ab</IRI>
-        <Literal xml:lang="en">import / export management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_e25f783d_6082_4174_8f54_0a3e412bc941</IRI>
-        <Literal xml:lang="en">payroll management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_e51c8cb9_eddd_4378_afb0_6f1247dea902</IRI>
-        <Literal xml:lang="en">tibco-ems-1-dev</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_e69b31c0_5074_4f5f_a027_ab98f177d734</IRI>
-        <Literal xml:lang="en">apache-kafka-broker-2-prd</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_e70bec5d_2d93_4dbf_b0ff_3f59a260f236</IRI>
-        <Literal xml:lang="en">vs001.dc01.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_e8126624_af77_4921_a63e_75842a378d43</IRI>
-        <Literal xml:lang="en">vs002.dc02.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_e82c2b0b_4200_4e2d_94ee_a45331f89d5a</IRI>
-        <Literal xml:lang="en">financial resource management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_eb2ea398_663a_4bb3_8a8b_cdcb57745205</IRI>
-        <Literal xml:lang="en">ps001.dc01.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_eb9d8f72_f01d_41a3_8a71_0f921795d105</IRI>
-        <Literal xml:lang="en">employee travel management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_f35f13f4_7d84_47ca_9e20_ca123c3cc67a</IRI>
-        <Literal xml:lang="en">dns application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_f3a56916_6605_402f_96d4_06fb7edebcb7</IRI>
-        <Literal xml:lang="en">human resource management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_f419fc8f_6c6e_4d64_ab10_2d3f1d1fcc29</IRI>
-        <Literal xml:lang="en">facilities management application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_f4a9f864_648a_46f4_8b9a_b9c6d8cdfa46</IRI>
-        <Literal xml:lang="en">vs003.dc02.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_f6654800_f11e_4b37_9540_423987f4f9b0</IRI>
-        <Literal xml:lang="en">vs005.dc02.example.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_f8fbceb7_410f_4625_8405_d439210893f8</IRI>
-        <Literal xml:lang="en">load balancer application system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_faadcd9c_a9a7_4686_8d9b_76386ca43195</IRI>
-        <Literal xml:lang="en">user database</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_fc60abc8_4b38_437d_a083_b823477bd6c0</IRI>
-        <Literal xml:lang="en">tibco-ebx-1-prd</Literal>
-    </AnnotationAssertion>
-</Ontology>
+@prefix : <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owl> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owl> .
+
+<https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owl> rdf:type owl:Ontology ;
+                                                                                                                 owl:imports <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl> ,
+                                                                                                                             <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl> ,
+                                                                                                                             <https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/human-relationship.owl> ;
+                                                                                                                 rdfs:comment "a sample enterprise architecture model" .
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_0705547c_adeb_46b2_bda8_92272e248e94
+:OWLNamedIndividual_0705547c_adeb_46b2_bda8_92272e248e94 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37> ;
+                                                         rdfs:label "prospects database"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_07955fa7_f062_4474_9305_cc7ba4063902
+:OWLNamedIndividual_07955fa7_f062_4474_9305_cc7ba4063902 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "web content management application system"@en .
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_09bbc523_6612_4928_97bf_c9b2905523c2
+:OWLNamedIndividual_09bbc523_6612_4928_97bf_c9b2905523c2 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471> :OWLNamedIndividual_b27d7ddf_338f_415f_bdea_2eab4e2c15c7 ;
+                                                         rdfs:label "apache-kafka-connect-src-sql-server-1-prd"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_0d959d53_3993_4269_b136_fc56593b5fdd
+:OWLNamedIndividual_0d959d53_3993_4269_b136_fc56593b5fdd rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "customer relationship management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_15076bf4_5fa3_4536_886a_16401f92d471
+:OWLNamedIndividual_15076bf4_5fa3_4536_886a_16401f92d471 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "accounting application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_16ce46d9_d47e_46fa_a6a7_32caf8324da3
+:OWLNamedIndividual_16ce46d9_d47e_46fa_a6a7_32caf8324da3 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_215ea073_6370_4fcf_befc_09f9e0007d19> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLObjectProperty_1ea29486_4c8f_49c5_9d60_9f88ed2e74e0> :OWLNamedIndividual_adefa5af_6fd4_4f43_9a90_766f6034b7df ;
+                                                         rdfs:label "tibco-ems-1-prd-ems-api"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_18bd2797_222b_48cb_920e_5c10f2dfc589
+:OWLNamedIndividual_18bd2797_222b_48cb_920e_5c10f2dfc589 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "accounts receivable management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_1a0ac169_f702_4bd7_b07e_3fd92df14a1c
+:OWLNamedIndividual_1a0ac169_f702_4bd7_b07e_3fd92df14a1c rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37> ;
+                                                         rdfs:label "customer database"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_1b0b27d8_82d1_4ec2_89f1_6d4d739300b9
+:OWLNamedIndividual_1b0b27d8_82d1_4ec2_89f1_6d4d739300b9 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "supply chain management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_20621778_fad0_47e6_b26d_2bad6eaf57c0
+:OWLNamedIndividual_20621778_fad0_47e6_b26d_2bad6eaf57c0 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471> :OWLNamedIndividual_6a32cec4_22e4_4cc3_b0c3_d0d64a44abb9 ;
+                                                         rdfs:label "apache-kafka-broker-1-dev"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_22c3b69d_26ab_4cac_ab61_c9c83f616553
+:OWLNamedIndividual_22c3b69d_26ab_4cac_ab61_c9c83f616553 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471> :OWLNamedIndividual_b27d7ddf_338f_415f_bdea_2eab4e2c15c7 ;
+                                                         rdfs:label "apache-kafka-broker-1-prd"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_2362b396_152d_4f01_a39c_07d465ff1bf3
+:OWLNamedIndividual_2362b396_152d_4f01_a39c_07d465ff1bf3 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471> :OWLNamedIndividual_6a32cec4_22e4_4cc3_b0c3_d0d64a44abb9 ;
+                                                         rdfs:label "tibco-ebx-1-dev"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_25000b4b_c560_47bb_8d19_bc2db4e4d839
+:OWLNamedIndividual_25000b4b_c560_47bb_8d19_bc2db4e4d839 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78> ;
+                                                         rdfs:label "vs006.dc02.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_277e0a3e_cf7d_4ea7_93c9_80f49605cc0f
+:OWLNamedIndividual_277e0a3e_cf7d_4ea7_93c9_80f49605cc0f rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_aa6660fd_ef83_4b1d_876a_cdf332fb45a8> ;
+                                                         rdfs:label "ps002.dc02.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_27f8a394_50b9_4e53_a381_92581389a9ef
+:OWLNamedIndividual_27f8a394_50b9_4e53_a381_92581389a9ef rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37> ;
+                                                         rdfs:label "product database"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_29f002a7_cb9d_43a7_9476_36015c6ccba4
+:OWLNamedIndividual_29f002a7_cb9d_43a7_9476_36015c6ccba4 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_aa6660fd_ef83_4b1d_876a_cdf332fb45a8> ;
+                                                         rdfs:label "ps002.dc01.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_2e1d7aca_40ab_40e6_ae5a_185e8695cb95
+:OWLNamedIndividual_2e1d7aca_40ab_40e6_ae5a_185e8695cb95 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "treasury management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_2f2f1e56_c81e_4fb1_808d_d2bf65aa922a
+:OWLNamedIndividual_2f2f1e56_c81e_4fb1_808d_d2bf65aa922a rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9> ;
+                                                         rdfs:label "apache-kafka-3.1"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_31747899_dc13_471a_84d7_ee5c126b2fce
+:OWLNamedIndividual_31747899_dc13_471a_84d7_ee5c126b2fce rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "talent management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_35da4c83_c0ee_4311_8caa_7c53398219e9
+:OWLNamedIndividual_35da4c83_c0ee_4311_8caa_7c53398219e9 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "identity provider application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_364905f6_9b31_4410_a4c5_d071c04db788
+:OWLNamedIndividual_364905f6_9b31_4410_a4c5_d071c04db788 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "community chat instant messaging application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_3a4667a0_26ce_470b_bb2e_68353c5ae86e
+:OWLNamedIndividual_3a4667a0_26ce_470b_bb2e_68353c5ae86e rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78> ;
+                                                         rdfs:label "vs008.dc01.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_3d963dbc_cde1_4588_a971_7cd23b46f662
+:OWLNamedIndividual_3d963dbc_cde1_4588_a971_7cd23b46f662 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "financial forecasting application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_3e00ead8_f5be_44f1_97ea_f7c83b3158f8
+:OWLNamedIndividual_3e00ead8_f5be_44f1_97ea_f7c83b3158f8 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "location master data management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_4603684c_8091_4314_82f0_bbb3cc24c0dd
+:OWLNamedIndividual_4603684c_8091_4314_82f0_bbb3cc24c0dd rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "shipping management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_46096047_46b1_4571_addf_b9397b7fb447
+:OWLNamedIndividual_46096047_46b1_4571_addf_b9397b7fb447 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "vendor master data management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_466332ab_1949_4e82_a762_f1cde2bc7dfd
+:OWLNamedIndividual_466332ab_1949_4e82_a762_f1cde2bc7dfd rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "inventory management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_466a8657_963c_4ee3_a604_749597ea4b6f
+:OWLNamedIndividual_466a8657_963c_4ee3_a604_749597ea4b6f rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9> ;
+                                                         rdfs:label "debezium-kakfa-connect-sink-sql-server-x"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_48ff35e0_6c19_4f12_aa83_a8e90f3cf90f
+:OWLNamedIndividual_48ff35e0_6c19_4f12_aa83_a8e90f3cf90f rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78> ;
+                                                         rdfs:label "vs008.dc02.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_4a309be0_f4b3_4ac3_9d62_787982d7a049
+:OWLNamedIndividual_4a309be0_f4b3_4ac3_9d62_787982d7a049 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9> ;
+                                                         rdfs:label "tibco-ebx-6.0.5"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_4ae31c0a_98ef_4deb_8d25_c98726d42f12
+:OWLNamedIndividual_4ae31c0a_98ef_4deb_8d25_c98726d42f12 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78> ;
+                                                         rdfs:label "vs006.dc01.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_4b971e4b_b165_4c1d_b40c_c892bae02bf4
+:OWLNamedIndividual_4b971e4b_b165_4c1d_b40c_c892bae02bf4 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_5daa89cc_51be_49a5_84f0_a306dc596841> ;
+                                                         rdfs:label "sandbox"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_536ce803_e85e_4ef8_b44f_c13f0093406b
+:OWLNamedIndividual_536ce803_e85e_4ef8_b44f_c13f0093406b rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37> ;
+                                                         rdfs:label "sales database"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_54163340_6d34_4650_98ec_8a94dc068fa6
+:OWLNamedIndividual_54163340_6d34_4650_98ec_8a94dc068fa6 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_5daa89cc_51be_49a5_84f0_a306dc596841> ;
+                                                         rdfs:label "testing performance"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_58210fb9_567a_480e_ba81_447a76880cb1
+:OWLNamedIndividual_58210fb9_567a_480e_ba81_447a76880cb1 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "shipment management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_5b0b46ab_5348_4591_8a95_e9cdd0ad5fcf
+:OWLNamedIndividual_5b0b46ab_5348_4591_8a95_e9cdd0ad5fcf rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "cash management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_5d6c10ef_2827_46d3_b5fe_0d87b079d355
+:OWLNamedIndividual_5d6c10ef_2827_46d3_b5fe_0d87b079d355 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "customer master data management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_6136fa81_d7d8_4eac_9174_74657e742f63
+:OWLNamedIndividual_6136fa81_d7d8_4eac_9174_74657e742f63 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471> :OWLNamedIndividual_b27d7ddf_338f_415f_bdea_2eab4e2c15c7 ;
+                                                         rdfs:label "apache-kafka-connect-sink-tibco-ems-1-prd"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_6a32cec4_22e4_4cc3_b0c3_d0d64a44abb9
+:OWLNamedIndividual_6a32cec4_22e4_4cc3_b0c3_d0d64a44abb9 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_5daa89cc_51be_49a5_84f0_a306dc596841> ;
+                                                         rdfs:label "development"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_6b70bd0d_c57b_4a00_a181_f32acef4b71f
+:OWLNamedIndividual_6b70bd0d_c57b_4a00_a181_f32acef4b71f rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471> :OWLNamedIndividual_b27d7ddf_338f_415f_bdea_2eab4e2c15c7 ;
+                                                         rdfs:label "apache-kafka-connect-src-tibco-ems-1-prd"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_70daaddc_dc99_4ffa_ad69_26a134204523
+:OWLNamedIndividual_70daaddc_dc99_4ffa_ad69_26a134204523 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_525f1770_82e0_40b1_8199_590384e7e9f9> :OWLNamedIndividual_22c3b69d_26ab_4cac_ab61_c9c83f616553 ,
+                                                                                                                                                                                                             :OWLNamedIndividual_adefa5af_6fd4_4f43_9a90_766f6034b7df ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_cb712284_f955_4b58_a938_f3f6f7cc2be7> :OWLNamedIndividual_22c3b69d_26ab_4cac_ab61_c9c83f616553 ,
+                                                                                                                                                                                                             :OWLNamedIndividual_adefa5af_6fd4_4f43_9a90_766f6034b7df ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471> :OWLNamedIndividual_b27d7ddf_338f_415f_bdea_2eab4e2c15c7 ;
+                                                         rdfs:label "peoplesoft-fscm-1-prd"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_7154cf1f_f6fe_46b9_8cd9_a2df94ae32ec
+:OWLNamedIndividual_7154cf1f_f6fe_46b9_8cd9_a2df94ae32ec rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471> :OWLNamedIndividual_7980a682_8a56_4e71_b635_8b0e50956767 ;
+                                                         rdfs:label "peoplesoft-fscm-1-tst"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_77f1921c_6b50_4ed1_8df7_e16fc33cb45d
+:OWLNamedIndividual_77f1921c_6b50_4ed1_8df7_e16fc33cb45d rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "email messaging application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_78328808_c15a_4b49_8aea_b3a0a85ef038
+:OWLNamedIndividual_78328808_c15a_4b49_8aea_b3a0a85ef038 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_aa6660fd_ef83_4b1d_876a_cdf332fb45a8> ;
+                                                         rdfs:label "ps003.dc02.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_7980a682_8a56_4e71_b635_8b0e50956767
+:OWLNamedIndividual_7980a682_8a56_4e71_b635_8b0e50956767 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_5daa89cc_51be_49a5_84f0_a306dc596841> ;
+                                                         rdfs:label "testing function"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_7a20b46c_686f_4f2f_b35b_4338bb587739
+:OWLNamedIndividual_7a20b46c_686f_4f2f_b35b_4338bb587739 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_aa6660fd_ef83_4b1d_876a_cdf332fb45a8> ;
+                                                         rdfs:label "ps003.dc01.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_7a68b40a_a751_44ce_a200_430555d242a7
+:OWLNamedIndividual_7a68b40a_a751_44ce_a200_430555d242a7 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471> :OWLNamedIndividual_6a32cec4_22e4_4cc3_b0c3_d0d64a44abb9 ;
+                                                         rdfs:label "peoplesoft-fscm-1-dev"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_7f6477e3_539c_4fc1_8aed_0705dea0a94c
+:OWLNamedIndividual_7f6477e3_539c_4fc1_8aed_0705dea0a94c rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471> :OWLNamedIndividual_7980a682_8a56_4e71_b635_8b0e50956767 ;
+                                                         rdfs:label "apache-kafka-broker-1-tst"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_7f9f8071_65f3_4155_ace6_3937cbaabe00
+:OWLNamedIndividual_7f9f8071_65f3_4155_ace6_3937cbaabe00 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471> :OWLNamedIndividual_b27d7ddf_338f_415f_bdea_2eab4e2c15c7 ;
+                                                         rdfs:label "apache-kafka-connect-sink-sql-server-1-prd"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_807f484a_cc36_4347_979d_e166551169d3
+:OWLNamedIndividual_807f484a_cc36_4347_979d_e166551169d3 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_aa6660fd_ef83_4b1d_876a_cdf332fb45a8> ;
+                                                         rdfs:label "ps001.dc02.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_86654410_6a9e_48e1_924a_d1a0a4753892
+:OWLNamedIndividual_86654410_6a9e_48e1_924a_d1a0a4753892 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "demand forecasting application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_8805d223_e1a1_4504_acde_18672a5a89a4
+:OWLNamedIndividual_8805d223_e1a1_4504_acde_18672a5a89a4 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78> ;
+                                                         rdfs:label "vs002.dc01.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_89227bd5_9386_4ee4_b180_d4798fcf8d37
+:OWLNamedIndividual_89227bd5_9386_4ee4_b180_d4798fcf8d37 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "employee expense management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_8b0b26f8_b392_4c20_82e9_cedf4e657134
+:OWLNamedIndividual_8b0b26f8_b392_4c20_82e9_cedf4e657134 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471> :OWLNamedIndividual_7980a682_8a56_4e71_b635_8b0e50956767 ;
+                                                         rdfs:label "tibco-ems-1-tst"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_8e128cb6_cf90_4dfd_8ac0_81bc57b0b479
+:OWLNamedIndividual_8e128cb6_cf90_4dfd_8ac0_81bc57b0b479 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "sales management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_906ae571_cd8a_4f32_b6a5_8ac2df298b0f
+:OWLNamedIndividual_906ae571_cd8a_4f32_b6a5_8ac2df298b0f rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78> ;
+                                                         rdfs:label "vs009.dc02.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_9127de33_5061_451f_9513_c040eb33c25f
+:OWLNamedIndividual_9127de33_5061_451f_9513_c040eb33c25f rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "transportation management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_95cd287c_287a_4b5a_bce4_0fd7a9de5166
+:OWLNamedIndividual_95cd287c_287a_4b5a_bce4_0fd7a9de5166 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78> ;
+                                                         rdfs:label "vs009.dc01.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_98c3e452_61aa_4a6b_873e_0630c1b67559
+:OWLNamedIndividual_98c3e452_61aa_4a6b_873e_0630c1b67559 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37> ;
+                                                         rdfs:label "employee database"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_9919bc9e_01a3_496b_83c7_65b6491df6f5
+:OWLNamedIndividual_9919bc9e_01a3_496b_83c7_65b6491df6f5 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37> ;
+                                                         rdfs:label "location database"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_9aa07648_5bb1_49ab_acec_eaf8868c851d
+:OWLNamedIndividual_9aa07648_5bb1_49ab_acec_eaf8868c851d rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "vendor relationship management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_9db24fa8_c715_4a39_a296_1348dbaadda5
+:OWLNamedIndividual_9db24fa8_c715_4a39_a296_1348dbaadda5 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78> ;
+                                                         rdfs:label "vs007.dc01.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_9dd413a4_f2e3_4784_b6a5_ed787e5f50ae
+:OWLNamedIndividual_9dd413a4_f2e3_4784_b6a5_ed787e5f50ae rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "delivery management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_9e407813_7b47_409f_bb4f_fd9e42662f96
+:OWLNamedIndividual_9e407813_7b47_409f_bb4f_fd9e42662f96 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471> :OWLNamedIndividual_b27d7ddf_338f_415f_bdea_2eab4e2c15c7 ;
+                                                         rdfs:label "apache-kafka-broker-3-prd"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_a3128615_0603_40d6_a7f2_b582042323ad
+:OWLNamedIndividual_a3128615_0603_40d6_a7f2_b582042323ad rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "employee master data management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_a3a8561b_a26e_45af_9e39_8723d0728785
+:OWLNamedIndividual_a3a8561b_a26e_45af_9e39_8723d0728785 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "accounts payable management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_a5d0f29e_9ed1_47ec_aeee_01ed182636a1
+:OWLNamedIndividual_a5d0f29e_9ed1_47ec_aeee_01ed182636a1 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "purchase management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_a854b9db_7d8c_4235_acc8_f808b5ba21f5
+:OWLNamedIndividual_a854b9db_7d8c_4235_acc8_f808b5ba21f5 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "business record management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_ab04652f_05b5_4d81_9a5a_e17e5e614503
+:OWLNamedIndividual_ab04652f_05b5_4d81_9a5a_e17e5e614503 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_aa8ce7bc_e9cf_4ca7_9996_b60788ab0dbc> ;
+                                                         rdfs:label "generate sustainable returns on investment to company owners"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_adefa5af_6fd4_4f43_9a90_766f6034b7df
+:OWLNamedIndividual_adefa5af_6fd4_4f43_9a90_766f6034b7df rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLObjectProperty_dc0399b7_58c3_44c1_b4d1_e6a1a8826208> :OWLNamedIndividual_16ce46d9_d47e_46fa_a6a7_32caf8324da3 ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471> :OWLNamedIndividual_b27d7ddf_338f_415f_bdea_2eab4e2c15c7 ;
+                                                         rdfs:label "tibco-ems-1-prd"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_b0a79996_b814_4174_a667_2ffcc0abf7c3
+:OWLNamedIndividual_b0a79996_b814_4174_a667_2ffcc0abf7c3 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9> ;
+                                                         rdfs:label "peoplesoft-fscm-9.2"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_b242fb07_9b30_4b6d_b6e0_63007c9a6e73
+:OWLNamedIndividual_b242fb07_9b30_4b6d_b6e0_63007c9a6e73 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78> ;
+                                                         rdfs:label "vs003.dc01.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_b27d7ddf_338f_415f_bdea_2eab4e2c15c7
+:OWLNamedIndividual_b27d7ddf_338f_415f_bdea_2eab4e2c15c7 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_5daa89cc_51be_49a5_84f0_a306dc596841> ;
+                                                         rdfs:label "production"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_b4ffc83c_239b_4ff7_9e05_117311556adc
+:OWLNamedIndividual_b4ffc83c_239b_4ff7_9e05_117311556adc rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "warehouse management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_b87c33c4_c7ed_40be_8282_7f5103fed51c
+:OWLNamedIndividual_b87c33c4_c7ed_40be_8282_7f5103fed51c rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78> ;
+                                                         rdfs:label "vs001.dc02.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_bad6a179_ca3b_430b_8020_5306d76c8e5b
+:OWLNamedIndividual_bad6a179_ca3b_430b_8020_5306d76c8e5b rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "capacity planning application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_bb35c63e_8e14_4005_9a68_3338be34ac07
+:OWLNamedIndividual_bb35c63e_8e14_4005_9a68_3338be34ac07 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "receiving management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_bb6fa351_0418_426c_997e_63dd2c4335b9
+:OWLNamedIndividual_bb6fa351_0418_426c_997e_63dd2c4335b9 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471> :OWLNamedIndividual_7980a682_8a56_4e71_b635_8b0e50956767 ;
+                                                         rdfs:label "tibco-ebx-1-tst"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_bc26e062_aeeb_4eff_844a_5b1831ab02c3
+:OWLNamedIndividual_bc26e062_aeeb_4eff_844a_5b1831ab02c3 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78> ;
+                                                         rdfs:label "vs004.dc02.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_bdccdd77_914e_4118_8fe5_5de62b2e75c9
+:OWLNamedIndividual_bdccdd77_914e_4118_8fe5_5de62b2e75c9 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37> ;
+                                                         rdfs:label "bill-of-materials database"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_c27a35ac_634a_4543_9c69_09b576283d30
+:OWLNamedIndividual_c27a35ac_634a_4543_9c69_09b576283d30 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78> ;
+                                                         rdfs:label "vs005.dc01.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_c85ac1b8_d50d_4939_b162_b0a9e7f503f5
+:OWLNamedIndividual_c85ac1b8_d50d_4939_b162_b0a9e7f503f5 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78> ;
+                                                         rdfs:label "vs004.dc01.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_cedeca57_83d8_41bd_93de_8b533199217e
+:OWLNamedIndividual_cedeca57_83d8_41bd_93de_8b533199217e rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471> :OWLNamedIndividual_b27d7ddf_338f_415f_bdea_2eab4e2c15c7 ;
+                                                         rdfs:label "apache-kafka-connect-src-db2-prd"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_cf54ee09_40bf_4820_9ea6_4dbe8d043e90
+:OWLNamedIndividual_cf54ee09_40bf_4820_9ea6_4dbe8d043e90 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9> ;
+                                                         rdfs:label "debezium-kafka-connect-src-sql-server-x"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_d4bcf852_e323_467d_a568_f070f4b2440d
+:OWLNamedIndividual_d4bcf852_e323_467d_a568_f070f4b2440d rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9> ;
+                                                         rdfs:label "tibco-ems-8.6.0"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_d6599ff1_0136_4565_8e81_790aa5819b13
+:OWLNamedIndividual_d6599ff1_0136_4565_8e81_790aa5819b13 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_a6d22942_0a50_4aab_b3d7_b71e0159dad9> ;
+                                                         rdfs:label "tibco-ems-10.1.0"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_d6608559_ce50_437f_8ef2_8765dc41a560
+:OWLNamedIndividual_d6608559_ce50_437f_8ef2_8765dc41a560 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "l2 load balancer application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_db01f5e6_935b_4894_9f66_6e77f01077dd
+:OWLNamedIndividual_db01f5e6_935b_4894_9f66_6e77f01077dd rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78> ;
+                                                         rdfs:label "vs007.dc02.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_df0be5f5_d620_47c1_8789_d2f6e72a2f6e
+:OWLNamedIndividual_df0be5f5_d620_47c1_8789_d2f6e72a2f6e rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "manufacturing management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_e044e017_670b_4176_956c_c2f4f830c183
+:OWLNamedIndividual_e044e017_670b_4176_956c_c2f4f830c183 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37> ;
+                                                         rdfs:label "inventory database"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_e121c5fc_b69f_47a2_b22c_836b34186b48
+:OWLNamedIndividual_e121c5fc_b69f_47a2_b22c_836b34186b48 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "item master data management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_e197208c_8aab_4d72_8262_171f8a3914d8
+:OWLNamedIndividual_e197208c_8aab_4d72_8262_171f8a3914d8 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "equipment management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_e2052dcb_7340_4555_a461_686d350630ab
+:OWLNamedIndividual_e2052dcb_7340_4555_a461_686d350630ab rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "import / export management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_e25f783d_6082_4174_8f54_0a3e412bc941
+:OWLNamedIndividual_e25f783d_6082_4174_8f54_0a3e412bc941 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "payroll management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_e51c8cb9_eddd_4378_afb0_6f1247dea902
+:OWLNamedIndividual_e51c8cb9_eddd_4378_afb0_6f1247dea902 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471> :OWLNamedIndividual_6a32cec4_22e4_4cc3_b0c3_d0d64a44abb9 ;
+                                                         rdfs:label "tibco-ems-1-dev"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_e69b31c0_5074_4f5f_a027_ab98f177d734
+:OWLNamedIndividual_e69b31c0_5074_4f5f_a027_ab98f177d734 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471> :OWLNamedIndividual_b27d7ddf_338f_415f_bdea_2eab4e2c15c7 ;
+                                                         rdfs:label "apache-kafka-broker-2-prd"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_e70bec5d_2d93_4dbf_b0ff_3f59a260f236
+:OWLNamedIndividual_e70bec5d_2d93_4dbf_b0ff_3f59a260f236 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78> ;
+                                                         rdfs:label "vs001.dc01.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_e8126624_af77_4921_a63e_75842a378d43
+:OWLNamedIndividual_e8126624_af77_4921_a63e_75842a378d43 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78> ;
+                                                         rdfs:label "vs002.dc02.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_e82c2b0b_4200_4e2d_94ee_a45331f89d5a
+:OWLNamedIndividual_e82c2b0b_4200_4e2d_94ee_a45331f89d5a rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "financial resource management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_eb2ea398_663a_4bb3_8a8b_cdcb57745205
+:OWLNamedIndividual_eb2ea398_663a_4bb3_8a8b_cdcb57745205 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_aa6660fd_ef83_4b1d_876a_cdf332fb45a8> ;
+                                                         rdfs:label "ps001.dc01.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_eb9d8f72_f01d_41a3_8a71_0f921795d105
+:OWLNamedIndividual_eb9d8f72_f01d_41a3_8a71_0f921795d105 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "employee travel management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_f35f13f4_7d84_47ca_9e20_ca123c3cc67a
+:OWLNamedIndividual_f35f13f4_7d84_47ca_9e20_ca123c3cc67a rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "dns application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_f3a56916_6605_402f_96d4_06fb7edebcb7
+:OWLNamedIndividual_f3a56916_6605_402f_96d4_06fb7edebcb7 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "human resource management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_f419fc8f_6c6e_4d64_ab10_2d3f1d1fcc29
+:OWLNamedIndividual_f419fc8f_6c6e_4d64_ab10_2d3f1d1fcc29 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "facilities management application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_f4a9f864_648a_46f4_8b9a_b9c6d8cdfa46
+:OWLNamedIndividual_f4a9f864_648a_46f4_8b9a_b9c6d8cdfa46 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78> ;
+                                                         rdfs:label "vs003.dc02.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_f6654800_f11e_4b37_9540_423987f4f9b0
+:OWLNamedIndividual_f6654800_f11e_4b37_9540_423987f4f9b0 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLClass_e8c86b0d_8b6a_4576_b74a_a22239fb2d78> ;
+                                                         rdfs:label "vs005.dc02.example.com"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_f8fbceb7_410f_4625_8405_d439210893f8
+:OWLNamedIndividual_f8fbceb7_410f_4625_8405_d439210893f8 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
+                                                         rdfs:label "load balancer application system"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_faadcd9c_a9a7_4686_8d9b_76386ca43195
+:OWLNamedIndividual_faadcd9c_a9a7_4686_8d9b_76386ca43195 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_76754c5f_bef7_4b99_a294_5494c6e01e37> ;
+                                                         rdfs:label "user database"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/sample-models/ea-s001.owlOWLNamedIndividual_fc60abc8_4b38_437d_a083_b823477bd6c0
+:OWLNamedIndividual_fc60abc8_4b38_437d_a083_b823477bd6c0 rdf:type owl:NamedIndividual ,
+                                                                  <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owlOWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
+                                                         <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e1e26279_9a23_49bd_9ed6_98776ec1d471> :OWLNamedIndividual_b27d7ddf_338f_415f_bdea_2eab4e2c15c7 ;
+                                                         rdfs:label "tibco-ebx-1-prd"@en .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
