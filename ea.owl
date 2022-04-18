@@ -15,11 +15,6 @@
 #    Object Properties
 #################################################################
 
-###  https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439
-<https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439> rdf:type owl:ObjectProperty ;
-                                                                                                                                              rdfs:domain <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> .
-
-
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_005fad1f_9554_45f8_99cd_26995c4a3a2f
 :OWLObjectProperty_005fad1f_9554_45f8_99cd_26995c4a3a2f rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_d6f570b2_576c_4616_807e_573b19a10330 ;
@@ -153,6 +148,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_3336fa0a_3fdf_45ca_b9ce_fa9e3b26d1cd
 :OWLObjectProperty_3336fa0a_3fdf_45ca_b9ce_fa9e3b26d1cd rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_cb712284_f955_4b58_a938_f3f6f7cc2be7 ;
                                                         rdfs:domain :OWLClass_fe708108_9f28_43cf_9b28_1c387e58b0f4 ;
                                                         rdfs:label "publishes digital messages to"@en .
 
@@ -356,6 +352,7 @@
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_8597e87a_0547_4be7_8402_05413b379f5a
 :OWLObjectProperty_8597e87a_0547_4be7_8402_05413b379f5a rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_cb712284_f955_4b58_a938_f3f6f7cc2be7 ;
                                                         rdfs:domain :OWLClass_297c79ce_cfc2_469a_9783_8d56e5425686 ;
                                                         rdfs:range :OWLClass_e60478af_4d88_4fe3_a8ef_58b442672f0c ;
                                                         rdfs:label "produces data stream"@en .
@@ -456,18 +453,16 @@
                                                         rdfs:label "length"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_c0b212cd_d358_4c97_b537_f617b3385bea
+:OWLObjectProperty_c0b212cd_d358_4c97_b537_f617b3385bea rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_525f1770_82e0_40b1_8199_590384e7e9f9 ;
+                                                        rdfs:label "consumes data stream"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_c77f8769_a7af_4150_ab15_94abc5938a21
 :OWLObjectProperty_c77f8769_a7af_4150_ab15_94abc5938a21 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_43f8a9c9_1e46_48e1_b779_19e655d6e8da ;
                                                         rdfs:label "international resource identifier"@en .
-
-
-###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_c9380811_34c3_46ed_b1ec_9ee366cffa80
-:OWLObjectProperty_c9380811_34c3_46ed_b1ec_9ee366cffa80 rdf:type owl:ObjectProperty ;
-                                                        rdfs:subPropertyOf <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/as.owlOWLObjectProperty_4f35c1d6_b068_42c0_9d5e_c0b0a8c04439> ;
-                                                        rdfs:domain <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_6145eb58_6ecd_40ee_9bea_fced6245e7d1> ;
-                                                        rdfs:range <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#OWLClass_204b2cd0_342c_4d4f_85f1_9d2667c1190e> ;
-                                                        rdfs:label "fills applicaiton system functional role"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_c99d2663_d13b_43c3_b99d_1f807fbd6052
@@ -554,15 +549,9 @@
                                                         rdfs:label "solution uom"@en .
 
 
-###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e6e69841_36a1_4d1b_9628_4977c3c3f9ef
-:OWLObjectProperty_e6e69841_36a1_4d1b_9628_4977c3c3f9ef rdf:type owl:ObjectProperty ;
-                                                        rdfs:domain :OWLClass_c1e99f94_3eea_44a6_975d_e2289f4931d9 ;
-                                                        rdfs:range :OWLClass_e60478af_4d88_4fe3_a8ef_58b442672f0c ;
-                                                        rdfs:label "consumes data stream"@en .
-
-
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_e72c288b_d52c_41bf_9904_cd3346db023f
 :OWLObjectProperty_e72c288b_d52c_41bf_9904_cd3346db023f rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_525f1770_82e0_40b1_8199_590384e7e9f9 ;
                                                         rdfs:domain :OWLClass_c0a15d22_7e66_4fc6_874b_c970fb15a03d ;
                                                         rdfs:label "subscribes to digital messages from"@en .
 
