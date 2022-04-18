@@ -238,7 +238,7 @@
 :OWLObjectProperty_525f1770_82e0_40b1_8199_590384e7e9f9 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_167a036f_72e7_4c56_a943_30244724bc80 ;
                                                         owl:inverseOf :OWLObjectProperty_cb712284_f955_4b58_a938_f3f6f7cc2be7 ;
-                                                        rdfs:label "receive data from"@en .
+                                                        rdfs:label "receives data from"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_52907473_f78f_4fcd_beef_67e0464ae1bf
@@ -479,7 +479,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_cb712284_f955_4b58_a938_f3f6f7cc2be7
 :OWLObjectProperty_cb712284_f955_4b58_a938_f3f6f7cc2be7 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_167a036f_72e7_4c56_a943_30244724bc80 ;
-                                                        rdfs:label "send data to"@en .
+                                                        rdfs:label "sends data to"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLObjectProperty_d070f84a_b739_4aab_af5e_8156fc2594a7
