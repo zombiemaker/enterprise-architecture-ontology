@@ -32,3 +32,14 @@
     * which job categories?
 * Where is information stored about this subject?
 * Who in the enterprise knows about this subject?
+
+* What application systems are there?
+  * Which ones are active / operating?
+  * Which ones are retired / decommissioned?
+  * Which ones will be active / commissioned?
+* Which application systems are integrated with each other directly?
+* Which application systems are integrated with each other indirectly?
+* What types of information are transmitted between application system A and application system B?
+* What types of information are transmitted between application system collection A and application system collection B?
+* What types of remote APIs are provided by an application system
+* Which client application system uses remote APIs provided by an application system?
