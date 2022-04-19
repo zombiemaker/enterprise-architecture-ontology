@@ -1039,6 +1039,13 @@
                                                rdfs:label "information segment"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_2e8786f4_c49e_4ef7_b75b_709a211237bb
+:OWLClass_2e8786f4_c49e_4ef7_b75b_709a211237bb rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_7bf77871_2a0f_4a13_8f58_abb38cee9fe2 ;
+                                               rdfs:comment "a system for managing change within an enterprise"@en ;
+                                               rdfs:label "enterprise change management system"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_2ea76d08_aa65_41da_a396_7b55c672b324
 :OWLClass_2ea76d08_aa65_41da_a396_7b55c672b324 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_1271786c_9a68_485a_8c8a_8a44567afc82 ;
@@ -1400,6 +1407,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_4f85223e_87e1_40ec_ac90_87702981c57b
 :OWLClass_4f85223e_87e1_40ec_ac90_87702981c57b rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_7bf77871_2a0f_4a13_8f58_abb38cee9fe2 ;
+                                               rdfs:comment "a system for investing capital in business(es)"@en ;
                                                rdfs:label "enterprise business investing system"@en .
 
 
@@ -2011,6 +2019,13 @@
                                                rdfs:label "roadmap"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_9542e84e_6c1e_4e6e_a2a9_dfc2df2fad38
+:OWLClass_9542e84e_6c1e_4e6e_a2a9_dfc2df2fad38 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_7bf77871_2a0f_4a13_8f58_abb38cee9fe2 ;
+                                               rdfs:comment "a system for transforming the architecture of an enterprise"@en ;
+                                               rdfs:label "enterprise architecture transformation system"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_9543bcb9_03a2_4cc5_a71b_9ad65ad1893d
 :OWLClass_9543bcb9_03a2_4cc5_a71b_9ad65ad1893d rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_3fcc0789_192f_4849_b2f1_cbe0efd3b2b3 ;
@@ -2110,6 +2125,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_9b90899c_fea9_49a8_9f5b_b59b6ad02f05
 :OWLClass_9b90899c_fea9_49a8_9f5b_b59b6ad02f05 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_7bf77871_2a0f_4a13_8f58_abb38cee9fe2 ;
+                                               rdfs:comment "a system for operating a business"@en ;
                                                rdfs:label "enterprise business operating system"@en .
 
 
@@ -2275,6 +2291,13 @@
 :OWLClass_ab2c4a7c_fc59_4d3d_b850_bf16f982272a rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_4be2dc6e_3930_4a8f_95f0_8b80b5e9bf63 ;
                                                rdfs:label "transaction closer agent"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_ab9c5832_cb95_494f_9f7e_3a6c55b08033
+:OWLClass_ab9c5832_cb95_494f_9f7e_3a6c55b08033 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_7bf77871_2a0f_4a13_8f58_abb38cee9fe2 ;
+                                               rdfs:comment "a system for transforming the enterprise" ;
+                                               rdfs:label "enterprise transformation system"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#OWLClass_acf4eb0a_38d4_4aef_9502_508d8fa3d19e
