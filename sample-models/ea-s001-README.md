@@ -16,6 +16,20 @@ To use the SPARQL plugin in Protege for this ontology, you will need to configur
 
 ## Sample SPARQL Queries
 
+Get list of all subject, predicate, and object triples
+
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX owl: <http://www.w3.org/2002/07/owl#>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+    PREFIX zmas: <https://raw.githubusercontent.com/zombiemaker/application-system-ontology/main/application-system.owl#>
+    PREFIX zmea: <https://raw.githubusercontent.com/zombiemaker/enterprise-architecture-ontology/main/ea.owl#>
+
+    SELECT ?s ?p ?o
+    WHERE { 
+        ?s ?o ?p .
+    }
+
 Get list of individuals of type application system (using IRI)
 
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -55,7 +69,6 @@ Get individual with rdfs:label "dns application system"@en
     SELECT ?subject
     WHERE { 
         ?subject rdfs:label "dns application system"@en
-
     }
 
 
@@ -71,7 +84,6 @@ Get list of individuals that sends data to other individuals
     WHERE { 
         ?source ?sends ?destination .
         ?sends rdfs:label "sends data to"@en
-
     }
 
 Manually construct inverse relationships
